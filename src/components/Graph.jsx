@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
 import "./Graph.css";
+import { findNodeNeighbors } from "../utils/nodeNeighbors";
 
 function Graph() {
     // define references
@@ -10,15 +11,18 @@ function Graph() {
     // define state data
     const [data, setData] = useState(null);
 
+    // define constants
+    const HOVER_SIZE_MULTIPLIKATOR = 1.2;
+    const HOVER_TRANSITION_DURATION = 750;
+    const HOVER_OPACITY = 0.1;
+
     // create simulation
     const simulation = d3.forceSimulation();
 
     // collision behaviour
-    const collisionBehaviour = d3
-        .forceCollide()
-        .radius(function (node) {
-            return node.size;
-        });
+    const collisionBehaviour = d3.forceCollide().radius(function (node) {
+        return node.size;
+    });
 
     // link behaviour
     const linkBehaviour = d3
@@ -42,7 +46,7 @@ function Graph() {
     const dragBehaviour = d3.drag().on("drag", dragged);
     function dragged(event, node) {
         node.fx = event.x;
-        node.fy = event.y;
+        node.fy = -event.y;
         simulation.alpha(0.3).restart();
     }
 
@@ -80,10 +84,7 @@ function Graph() {
             simulation
                 .nodes(data.nodes)
                 .force("collision", collisionBehaviour)
-                .force(
-                    "link",
-                    linkBehaviour.links(data.edges)
-                )
+                .force("link", linkBehaviour.links(data.edges))
                 .on("tick", ticked);
 
             function ticked() {
@@ -96,13 +97,13 @@ function Graph() {
                         return edge.source.x;
                     })
                     .attr("y1", function (edge) {
-                        return edge.source.y;
+                        return -edge.source.y;
                     })
                     .attr("x2", function (edge) {
                         return edge.target.x;
                     })
                     .attr("y2", function (edge) {
-                        return edge.target.y;
+                        return -edge.target.y;
                     })
                     .style("stroke", function (edge) {
                         return edge.color;
@@ -123,12 +124,82 @@ function Graph() {
                         return node.x;
                     })
                     .attr("cy", function (node) {
-                        return node.y;
+                        return -node.y;
                     })
                     .style("fill", function (node) {
                         return node.color;
                     })
-                    .call(dragBehaviour);
+                    .call(dragBehaviour)
+                    .on("mouseover", function (event, node) {
+                        console.log(node);
+                        console.log(node.attributes);
+                        const neighbors = findNodeNeighbors(node, data.edges);
+
+                        const neighborElements = d3
+                            .selectAll("circle")
+                            .filter(function (node) {
+                                return neighbors.includes(node);
+                            });
+
+                        const notNeighborElements = d3
+                            .selectAll("circle")
+                            .filter(function (node) {
+                                return !neighbors.includes(node);
+                            });
+
+                        neighborElements
+                            .transition()
+                            .duration(HOVER_TRANSITION_DURATION)
+                            .attr("r", function (node) {
+                                return node.size * HOVER_SIZE_MULTIPLIKATOR;
+                            });
+
+                        notNeighborElements
+                            .transition()
+                            .duration(HOVER_TRANSITION_DURATION)
+                            .style("opacity", HOVER_OPACITY);
+
+                        d3.select(this)
+                            .transition()
+                            .duration(HOVER_TRANSITION_DURATION)
+                            .attr("r", function (node) {
+                                return node.size * HOVER_SIZE_MULTIPLIKATOR;
+                            });
+                    })
+                    .on("mouseout", function (event, node) {
+                        const neighbors = findNodeNeighbors(node, data.edges);
+
+                        const neighborElements = d3
+                            .selectAll("circle")
+                            .filter(function (node) {
+                                return neighbors.includes(node);
+                            });
+
+                        const notNeighborElements = d3
+                            .selectAll("circle")
+                            .filter(function (node) {
+                                return !neighbors.includes(node);
+                            });
+
+                        neighborElements
+                            .transition()
+                            .duration(HOVER_TRANSITION_DURATION)
+                            .attr("r", function (node) {
+                                return node.size;
+                            });
+
+                        notNeighborElements
+                            .transition()
+                            .duration(HOVER_TRANSITION_DURATION)
+                            .style("opacity", 1);
+
+                        d3.select(this)
+                            .transition()
+                            .duration(HOVER_TRANSITION_DURATION)
+                            .attr("r", function (node) {
+                                return node.size;
+                            });
+                    });
             }
         },
         [data]
