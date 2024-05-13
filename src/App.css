@@ -1,4 +1,8 @@
-.container {
-  width: 100vw;
-  height: 100vh;
+.card-container {
+    display: grid;
+    grid-gap: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
 }

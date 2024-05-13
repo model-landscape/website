@@ -1,214 +1,140 @@
-import React, { useEffect, useRef, useState } from "react";
-import * as d3 from "d3";
+import { useEffect, useRef, useState } from "react";
 import "./Graph.css";
-import { findNodeNeighbors } from "../utils/nodeNeighbors";
+import Node from "./Node";
+import Edge from "./Edge";
+import { findNodeById, getContentBounds } from "../utils/utils";
 
-function Graph() {
-    // define references
-    const svgRef = useRef();
-    const gRef = useRef();
+function Graph({ nodes, edges }) {
+    const [dragging, setDragging] = useState(false);
+    const [scale, setScale] = useState(1);
+    const [translate, setTranslate] = useState({ x: 0, y: 0 });
+    const [mouseStart, setMouseStart] = useState({ x: 0, y: 0 });
+    const [nodeSelection, setNodeSelection] = useState([null]);
 
-    // define state data
-    const [data, setData] = useState(null);
+    const svgRef = useRef(null);
 
-    // define constants
-    const HOVER_SIZE_MULTIPLIKATOR = 1.2;
-    const HOVER_TRANSITION_DURATION = 750;
-    const HOVER_OPACITY = 0.1;
+    useEffect(() => {
+        const svg = svgRef.current;
+        const svgBounds = svg.getBoundingClientRect();
+        const contentBounds = getContentBounds(nodes);
 
-    // create simulation
-    const simulation = d3.forceSimulation();
+        const scaleX = svgBounds.width / contentBounds.width;
+        const scaleY = svgBounds.height / contentBounds.height;
 
-    // collision behaviour
-    const collisionBehaviour = d3.forceCollide().radius(function (node) {
-        return node.size;
-    });
+        const newScale = Math.min(scaleX, scaleY);
 
-    // link behaviour
-    const linkBehaviour = d3
-        .forceLink()
-        .strength(0)
-        .id(function (node) {
-            return node.id;
-        });
+        const offsetX = (svgBounds.width / newScale - contentBounds.width) / 2;
+        const offsetY =
+            (svgBounds.height / newScale - contentBounds.height) / 2;
 
-    // define zoom behaviour
-    const zoomBehaviour = d3.zoom().on("zoom", zoomed);
-    function zoomed(event) {
-        if (event.transform == null) {
-            return;
-        }
-        const g = d3.select(gRef.current);
-        g.attr("transform", event.transform);
-    }
+        const newTranslate = {
+            x: -contentBounds.minX + offsetX,
+            y: -contentBounds.minY + offsetY,
+        };
 
-    // define drag behaviour
-    const dragBehaviour = d3.drag().on("drag", dragged);
-    function dragged(event, node) {
-        node.fx = event.x;
-        node.fy = -event.y;
-        simulation.alpha(0.3).restart();
-    }
-
-    useEffect(function () {
-        async function fetchData() {
-            const res = await fetch("/gephi.json");
-            if (!res.ok) {
-                throw new Error("Error fetching data.");
-            }
-            const data = await res.json();
-
-            setData(data);
-        }
-
-        fetchData();
+        setScale(newScale);
+        setTranslate(newTranslate);
     }, []);
 
-    useEffect(
-        function () {
-            // check if data is populated
-            if (data == null) {
-                return;
-            }
+    function handleMouseDown(event) {
+        setDragging(true);
+        const newMouseStart = {
+            x: event.pageX,
+            y: event.pageY,
+        };
+        setMouseStart(newMouseStart);
+    }
 
-            // retrieve svg element
-            const svg = d3.select(svgRef.current);
+    function handleMouseUp() {
+        setDragging(false);
+    }
 
-            // check svg for zoom events
-            svg.call(zoomBehaviour);
+    function handleMouseMove(event) {
+        if (!dragging) return;
 
-            // retrieve group element
-            const g = d3.select(gRef.current);
+        const deltaX = (event.pageX - mouseStart.x) / scale;
+        const deltaY = (event.pageY - mouseStart.y) / scale;
 
-            // set forces
-            simulation
-                .nodes(data.nodes)
-                .force("collision", collisionBehaviour)
-                .force("link", linkBehaviour.links(data.edges))
-                .on("tick", ticked);
+        const newTranslate = {
+            x: deltaX + translate.x,
+            y: deltaY + translate.y,
+        };
 
-            function ticked() {
-                // populate edges
-                g.selectAll("line")
-                    .data(data.edges)
-                    .join("line")
-                    .classed("edge", true)
-                    .attr("x1", function (edge) {
-                        return edge.source.x;
-                    })
-                    .attr("y1", function (edge) {
-                        return -edge.source.y;
-                    })
-                    .attr("x2", function (edge) {
-                        return edge.target.x;
-                    })
-                    .attr("y2", function (edge) {
-                        return -edge.target.y;
-                    })
-                    .style("stroke", function (edge) {
-                        return edge.color;
-                    })
-                    .style("stroke-width", function (edge) {
-                        return edge.size;
-                    });
+        const newMouseStart = {
+            x: event.pageX,
+            y: event.pageY,
+        };
 
-                // populate nodes
-                g.selectAll("circle")
-                    .data(data.nodes)
-                    .join("circle")
-                    .classed("node", true)
-                    .attr("r", function (node) {
-                        return node.size;
-                    })
-                    .attr("cx", function (node) {
-                        return node.x;
-                    })
-                    .attr("cy", function (node) {
-                        return -node.y;
-                    })
-                    .style("fill", function (node) {
-                        return node.color;
-                    })
-                    .call(dragBehaviour)
-                    .on("mouseover", function (event, node) {
-                        console.log(node);
-                        console.log(node.attributes);
-                        const neighbors = findNodeNeighbors(node, data.edges);
+        setTranslate(newTranslate);
+        setMouseStart(newMouseStart);
+    }
 
-                        const neighborElements = d3
-                            .selectAll("circle")
-                            .filter(function (node) {
-                                return neighbors.includes(node);
-                            });
+    function handleWheel(event) {
+        const delta = event.deltaY;
+        const newScale = scale * Math.pow(1.1, delta / 360);
+        setScale(newScale);
+    }
 
-                        const notNeighborElements = d3
-                            .selectAll("circle")
-                            .filter(function (node) {
-                                return !neighbors.includes(node);
-                            });
+    function handleNodeSelection(nodeId) {
+        if (!nodeId) {
+            setNodeSelection([null]);
+            return;
+        }
 
-                        neighborElements
-                            .transition()
-                            .duration(HOVER_TRANSITION_DURATION)
-                            .attr("r", function (node) {
-                                return node.size * HOVER_SIZE_MULTIPLIKATOR;
-                            });
+        const neighboringEdges = edges.filter(
+            (edge) => edge.source === nodeId || edge.target === nodeId
+        );
+        const neighboringNodes = neighboringEdges.map((edge) =>
+            edge.source === nodeId ? edge.target : edge.source
+        );
 
-                        notNeighborElements
-                            .transition()
-                            .duration(HOVER_TRANSITION_DURATION)
-                            .style("opacity", HOVER_OPACITY);
+        const selection = neighboringNodes.concat(nodeId.toString());
 
-                        d3.select(this)
-                            .transition()
-                            .duration(HOVER_TRANSITION_DURATION)
-                            .attr("r", function (node) {
-                                return node.size * HOVER_SIZE_MULTIPLIKATOR;
-                            });
-                    })
-                    .on("mouseout", function (event, node) {
-                        const neighbors = findNodeNeighbors(node, data.edges);
-
-                        const neighborElements = d3
-                            .selectAll("circle")
-                            .filter(function (node) {
-                                return neighbors.includes(node);
-                            });
-
-                        const notNeighborElements = d3
-                            .selectAll("circle")
-                            .filter(function (node) {
-                                return !neighbors.includes(node);
-                            });
-
-                        neighborElements
-                            .transition()
-                            .duration(HOVER_TRANSITION_DURATION)
-                            .attr("r", function (node) {
-                                return node.size;
-                            });
-
-                        notNeighborElements
-                            .transition()
-                            .duration(HOVER_TRANSITION_DURATION)
-                            .style("opacity", 1);
-
-                        d3.select(this)
-                            .transition()
-                            .duration(HOVER_TRANSITION_DURATION)
-                            .attr("r", function (node) {
-                                return node.size;
-                            });
-                    });
-            }
-        },
-        [data]
-    );
+        setNodeSelection(selection);
+    }
 
     return (
-        <svg className="graph" ref={svgRef}>
-            <g className="transformation" ref={gRef}></g>
-        </svg>
+        <div className="graph">
+            <svg
+                ref={svgRef}
+                onMouseDown={handleMouseDown}
+                onMouseUp={handleMouseUp}
+                onMouseMove={handleMouseMove}
+                onWheel={handleWheel}
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <g
+                    transform={`scale(${scale}) translate(${translate.x},${translate.y})`}
+                >
+                    {edges.map((edge, index) => {
+                        const source = findNodeById(edge.source, nodes);
+                        const target = findNodeById(edge.target, nodes);
+
+                        if (!source || !target) return null;
+
+                        return (
+                            <Edge
+                                key={index}
+                                edge={edge}
+                                source={source}
+                                target={target}
+                            />
+                        );
+                    })}
+                    {nodes.map((node, index) => {
+                        const selected = nodeSelection.includes(node.id);
+                        return (
+                            <Node
+                                key={index}
+                                node={node}
+                                selected={selected}
+                                onSelection={handleNodeSelection}
+                            />
+                        );
+                    })}
+                </g>
+            </svg>
+        </div>
     );
 }
 
