@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import "./Node.css";
 
-function Node({ node, selected, onSelection }) {
+function Node({ node }) {
+    /*
     const [radius, setRadius] = useState(null);
     const [opacity, setOpacity] = useState(1);
 
@@ -24,17 +25,18 @@ function Node({ node, selected, onSelection }) {
     function handleMouseLeave() {
         onSelection(null);
     }
+    */
 
     return (
         <circle
             className="node"
             cx={node.x}
             cy={-node.y}
-            r={radius}
+            r={node.size}
             fill={node.color}
-            opacity={opacity}
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
+            //opacity={opacity}
+            //onMouseEnter={handleMouseEnter}
+            //onMouseLeave={handleMouseLeave}
         />
     );
 }

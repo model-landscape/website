@@ -1,0 +1,29 @@
+.accordion-panel {
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.accordion-title {
+    cursor: pointer;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.accordion-content {
+    padding: 0px 10px;
+    display: grid;
+    grid-template-rows: 0fr;
+    opacity: 0;
+    transition: 500ms ease-in-out;
+}
+
+.accordion-content > * {
+    overflow: hidden;
+    grid-row: 1 / span 2;
+}
+
+.accordion-content.open {
+    grid-template-rows: 1fr;
+    padding-bottom: 10px;
+    opacity: 1;
+}

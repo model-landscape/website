@@ -1,8 +1,12 @@
-.card-container {
+.accordion-container {
     display: grid;
-    grid-gap: 10px;
+    row-gap: 10px;
     position: absolute;
     bottom: 0;
     right: 0;
-    padding: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    max-width: 30%;
+    max-height: 100vh;
+    overflow: auto;
 }
