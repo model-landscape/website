@@ -1,0 +1,26 @@
+.graph {
+    width: 100vw;
+    height: 100vh;
+}
+
+.graph svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.node {
+    cursor: pointer;
+    transition: opacity 500ms, r 500ms;
+}
+
+.node-label {
+    pointer-events: none;
+    transition: opacity 500ms, transform 500ms;
+    text-anchor: middle;
+}
+
+.edge {
+    transition: opacity 500ms;
+    pointer-events: none;
+}

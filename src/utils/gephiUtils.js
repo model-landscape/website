@@ -2,7 +2,7 @@ export function findNodeById(id, nodes) {
     return nodes.find((node) => node.id === id);
 }
 
-export function getContentBounds(nodes) {
+export function getGephiContentLimits(nodes) {
     const [minX, minY, maxX, maxY] = nodes.reduce(
         (acc, { x, y, size }) => [
             Math.min(acc[0], x - size),
@@ -13,8 +13,5 @@ export function getContentBounds(nodes) {
         [Infinity, Infinity, -Infinity, -Infinity]
     );
 
-    const width = maxX - minX;
-    const height = maxY - minY;
-
-    return { minX, maxX, minY, maxY, width, height };
+    return { minX, maxX, minY, maxY };
 }

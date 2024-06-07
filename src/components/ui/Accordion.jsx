@@ -13,8 +13,12 @@ function Accordion({ title, children }) {
             <div className="accordion-title" onClick={toggleAccordion}>
                 {title}
             </div>
-            <div className={`accordion-content ${isOpen ? "open" : ""}`}>
-                {children}
+            <div
+                className={`accordion-content-container ${
+                    isOpen ? "open" : ""
+                }`}
+            >
+                <div className="accordion-content">{children}</div>
             </div>
         </div>
     );

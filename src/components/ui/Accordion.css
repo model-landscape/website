@@ -7,9 +7,11 @@
     cursor: pointer;
     font-weight: 500;
     padding: 10px;
+    user-select: none;
 }
 
-.accordion-content {
+.accordion-content-container {
+    font-size: 0.8rem;
     padding: 0px 10px;
     display: grid;
     grid-template-rows: 0fr;
@@ -17,13 +19,18 @@
     transition: 500ms ease-in-out;
 }
 
-.accordion-content > * {
+.accordion-content-container > .accordion-content {
     overflow: hidden;
     grid-row: 1 / span 2;
 }
 
-.accordion-content.open {
+.accordion-content-container.open {
     grid-template-rows: 1fr;
     padding-bottom: 10px;
     opacity: 1;
+}
+
+.accordion-content {
+    display: grid;
+    row-gap: 0.8rem;
 }
