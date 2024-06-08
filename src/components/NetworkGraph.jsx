@@ -1,15 +1,21 @@
-import React, { useEffect, useMemo, useRef } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import * as d3 from "d3";
 import data from "../data/gephi.json";
 import "./NetworkGraph.css";
+import Modal from "./ui/Modal";
 
 function NetworkGraph() {
+    const [clickedNode, setClickedNode] = useState(null);
     const svgRef = useRef(null);
     const gRef = useRef(null);
     const gNodesRef = useRef(null);
     const gEdgesRef = useRef(null);
     const gNodeBGsRef = useRef(null);
     const gNodeLabelsRef = useRef(null);
+    const hoverStateRef = useRef({
+        hoveredNode: null,
+        neighbors: [],
+    });
     const { nodes, edges } = data;
 
     console.log("render");
@@ -17,6 +23,10 @@ function NetworkGraph() {
     const oneRem = useMemo(() => {
         return parseFloat(getComputedStyle(document.documentElement).fontSize);
     }, []);
+
+    const sortedNodes = useMemo(() => {
+        return nodes.slice().sort((a, b) => b.size - a.size);
+    }, [nodes]);
 
     // Create a map of node IDs to neighbor node objects
     const neighborsMap = useMemo(() => {
@@ -39,19 +49,20 @@ function NetworkGraph() {
 
     const handleMouseEnter = (event, node) => {
         d3.select(`#node-${node.id}`).attr("r", node.size * 1.5);
-        d3.select(`#node-label-${node.id}`).attr(
-            "transform",
-            `translate(0, ${node.size * 1.5 - node.size})`
-        );
+        d3.select(`#node-label-${node.id}`)
+            .attr("transform", `translate(0, ${node.size * 1.5 - node.size})`)
+            .style("opacity", 1);
 
         // Enlarge neighboring nodes
         const neighbors = getNeighbors(node.id);
         neighbors.forEach((neighbor) => {
             d3.select(`#node-${neighbor.id}`).attr("r", neighbor.size * 1.5);
-            d3.select(`#node-label-${neighbor.id}`).attr(
-                "transform",
-                `translate(0, ${neighbor.size * 1.5 - neighbor.size})`
-            );
+            d3.select(`#node-label-${neighbor.id}`)
+                .attr(
+                    "transform",
+                    `translate(0, ${neighbor.size * 1.5 - neighbor.size})`
+                )
+                .style("opacity", 1);
         });
 
         // Set opacity of non-neighboring nodes
@@ -66,6 +77,8 @@ function NetworkGraph() {
                 d3.select(`#edge-${edge.id}`).style("opacity", 0);
             }
         });
+
+        hoverStateRef.current = { hoveredNode: node, neighbors: neighbors };
     };
 
     const handleMouseLeave = (event, node) => {
@@ -88,19 +101,50 @@ function NetworkGraph() {
         // Reset opacity of non-neighboring nodes
         nodes.forEach((n) => {
             d3.select(`#node-${n.id}`).style("opacity", 1);
-            d3.select(`#node-label-${n.id}`).style("opacity", 1);
         });
         edges.forEach((edge) => {
             d3.select(`#edge-${edge.id}`).style("opacity", 1);
         });
+
+        // Reapply zoom level based label visibility
+        const zoomLevel = d3.zoomTransform(svgRef.current).k;
+        const maxVisibleLabels = Math.floor(zoomLevel * sortedNodes.length);
+        d3.selectAll(".node-label").style("opacity", (node, index) => {
+            const nodeIndex = sortedNodes.findIndex((n) => n.id === node.id);
+            return nodeIndex < maxVisibleLabels ? 1 : 0;
+        });
+
+        hoverStateRef.current = { hoveredNode: null, neighbors: [] };
     };
 
     const handleZoom = (e) => {
         d3.select(gRef.current).attr("transform", e.transform);
         d3.selectAll(`.node-label`).attr(
             "font-size",
-            () => oneRem / e.transform.k
+            () => (oneRem * 0.8) / e.transform.k
         );
+
+        // Determine the number of labels to show based on zoom level
+        const maxVisibleLabels = Math.floor(e.transform.k * sortedNodes.length);
+
+        if (hoverStateRef.current.hoveredNode) {
+            const hoveredNode = hoverStateRef.current.hoveredNode;
+            const neighbors = hoverStateRef.current.neighbors;
+
+            d3.selectAll(".node-label").style("opacity", (node) => {
+                return node.id === hoveredNode.id ||
+                    neighbors.some((n) => n.id === node.id)
+                    ? 1
+                    : 0;
+            });
+        } else {
+            d3.selectAll(".node-label").style("opacity", (node) => {
+                const nodeIndex = sortedNodes.findIndex(
+                    (n) => n.id === node.id
+                );
+                return nodeIndex < maxVisibleLabels ? 1 : 0;
+            });
+        }
     };
     const zoom = d3.zoom().scaleExtent([0.05, 1]).on("zoom", handleZoom);
 
@@ -148,7 +192,8 @@ function NetworkGraph() {
             .style("fill", (node) => node.color)
             .style("opacity", 1)
             .on("mouseenter", handleMouseEnter)
-            .on("mouseleave", handleMouseLeave);
+            .on("mouseleave", handleMouseLeave)
+            .on("click", (event, node) => setClickedNode(node));
 
         gNodeLabels
             .selectAll("text")
@@ -157,9 +202,9 @@ function NetworkGraph() {
             .classed("node-label", true)
             .attr("id", (node) => `node-label-${node.id}`)
             .attr("x", (node) => node.x) // Adjust position as needed
-            .attr("y", (node) => -node.y + node.size) // Adjust position as needed
+            .attr("y", (node) => -node.y + node.size + 10) // Adjust position as needed
             .attr("dominant-baseline", "hanging")
-            .style("opacity", 1)
+            .style("opacity", 0)
             .text((node) => node.label);
 
         const svg = d3.select(svgRef.current).call(zoom);
@@ -189,16 +234,23 @@ function NetworkGraph() {
     }, []);
 
     return (
-        <div className="graph">
-            <svg ref={svgRef}>
-                <g ref={gRef}>
-                    <g className="edges" ref={gEdgesRef}></g>
-                    <g className="node-bgs" ref={gNodeBGsRef}></g>
-                    <g className="nodes" ref={gNodesRef}></g>
-                    <g className="node-labels" ref={gNodeLabelsRef}></g>
-                </g>
-            </svg>
-        </div>
+        <>
+            <div className="graph">
+                <svg ref={svgRef}>
+                    <g ref={gRef}>
+                        <g className="edges" ref={gEdgesRef}></g>
+                        <g className="node-bgs" ref={gNodeBGsRef}></g>
+                        <g className="nodes" ref={gNodesRef}></g>
+                        <g className="node-labels" ref={gNodeLabelsRef}></g>
+                    </g>
+                </svg>
+            </div>
+            <Modal
+                isOpen={clickedNode !== null}
+                onClose={() => setClickedNode(null)}
+                node={clickedNode}
+            />
+        </>
     );
 }
 export default NetworkGraph;

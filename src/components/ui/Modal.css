@@ -1,0 +1,10 @@
+.modal {
+    width: 80%;
+    border-radius: 5px;
+    border: none !important;
+    outline: none;
+}
+
+.modal-content {
+    padding: 10px;
+}
