@@ -14,7 +14,7 @@
     transition: opacity 500ms, r 500ms;
 }
 
-.node-label {
+.label {
     pointer-events: none;
     transition: opacity 500ms, transform 500ms;
     text-anchor: middle;

@@ -10,9 +10,9 @@ function Accordion({ title, children }) {
 
     return (
         <div className="accordion-panel">
-            <div className="accordion-title" onClick={toggleAccordion}>
+            <h4 className="accordion-title" onClick={toggleAccordion}>
                 {title}
-            </div>
+            </h4>
             <div
                 className={`accordion-content-container ${
                     isOpen ? "open" : ""

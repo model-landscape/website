@@ -1,43 +1,36 @@
-import { useRef, useEffect } from "react";
+import CloseButton from "./CloseButton";
 import "./Modal.css";
+import NestedList from "./NestedList";
 
-function Modal({ isOpen, onClose, node }) {
-    const modalRef = useRef(null);
-
-    useEffect(() => {
-        const modal = modalRef.current;
-        if (isOpen) {
-            modal.showModal();
-        } else {
-            modal.close();
-        }
-    }, [isOpen]);
-
-    const handleOutsideClick = (event) => {
-        if (event.target === modalRef.current) {
-            onClose();
-        }
-    };
-
+function Modal({ node, nodeInfo, onClose }) {
     return (
-        <dialog ref={modalRef} className="modal" onClick={handleOutsideClick}>
-            <div className="modal-content">
-                <h2>Name</h2>
-                <h3>Description</h3>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Quidem itaque architecto reprehenderit eaque voluptates id
-                    error asperiores eligendi ullam? Molestiae quae sunt nobis
-                    suscipit beatae laborum! Ab adipisci soluta pariatur.
-                </p>
-                <h3>Inputs</h3>
-                <p>awjhda wdhkak dkbw </p>
-                <h3>Outputs</h3>
-                <p>awkd wahb hwawbdk </p>
-                <h3>References</h3>
-                <p>adwwa jkawd jkaw bjk</p>
+        <>
+            <div className="modal-backdrop"></div>
+            <div className="modal">
+                <div className="modal-content">
+                    <h3 className="modal-heading">{node.label}</h3>
+                    <CloseButton onClose={onClose} />
+                    {/*
+                    <div className="modal-description">
+                    <h4>Description</h4>
+                    <p>{node.attributes.Description}</p>
+                    </div>
+                    */}
+                    <div className="modal-inputs">
+                        <h4>Inputs</h4>
+                        <NestedList data={nodeInfo.inputs} />
+                    </div>
+                    <div className="modal-outputs">
+                        <h4>Outputs</h4>
+                        <NestedList data={nodeInfo.outputs} />
+                    </div>
+                    <div className="modal-references">
+                        <h4>References</h4>
+                        <p>{nodeInfo.references.join("; ")}</p>
+                    </div>
+                </div>
             </div>
-        </dialog>
+        </>
     );
 }
 
