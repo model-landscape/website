@@ -29,7 +29,14 @@
 }
 
 .accordion-content {
-    display: grid;
+    display: block;
     row-gap: 0.5rem;
-    text-align: justify;
+}
+
+.accordion-content * {
+    margin-bottom: 10px;
+}
+
+.accordion-content:last-child {
+    margin-bottom: 0px;
 }

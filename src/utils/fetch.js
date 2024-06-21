@@ -12,3 +12,9 @@ export async function fetchGephiIO() {
     const gephiIO = yaml.load(gephiIOString);
     return gephiIO;
 }
+
+export async function fetchGeneralInfo() {
+    const generalInfoResponse = await fetch("/generalInfo.json");
+    const generalInfo = await generalInfoResponse.json();
+    return generalInfo;
+}

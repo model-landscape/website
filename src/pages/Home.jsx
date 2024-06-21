@@ -1,5 +1,5 @@
 import { useQueries } from "react-query";
-import { fetchGephi, fetchGephiIO } from "../utils/fetch";
+import { fetchGeneralInfo, fetchGephi, fetchGephiIO } from "../utils/fetch";
 import Loader from "../components/ui/Loader";
 import "./Home.css";
 import Graph from "../components/Graph";
@@ -19,13 +19,20 @@ function Home() {
             staleTime: Infinity,
             cacheTime: Infinity,
         },
+        {
+            queryKey: "generalInfoData",
+            queryFn: fetchGeneralInfo,
+            staleTime: Infinity,
+            cacheTime: Infinity,
+        },
     ]);
 
     const isLoading = results.some((query) => query.isLoading);
     const error = results.some((query) => query.error);
-    const [gephiResult, gephiIOResult] = results;
+    const [gephiResult, gephiIOResult, generalInfoResult] = results;
     const { data: gephiData } = gephiResult;
     const { data: gephiIOData } = gephiIOResult;
+    const { data: generalInfoData } = generalInfoResult;
 
     if (isLoading) {
         return (
@@ -71,17 +78,9 @@ function Home() {
                 </Accordion>
 
                 <Accordion title="References">
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Reiciendis incidunt autem exercitationem impedit
-                        magnam obcaecati? Laudantium odio tenetur in? Libero,
-                        placeat! Soluta, pariatur molestias. Placeat enim quidem
-                        obcaecati dicta quibusdam? Lorem, ipsum dolor sit amet
-                        consectetur adipisicing elit. Ea iusto aperiam voluptate
-                        totam minima necessitatibus, quia voluptatum excepturi a
-                        quasi ullam praesentium sequi odit. Quibusdam numquam
-                        possimus minima quasi repudiandae.
-                    </p>
+                    {generalInfoData.references.map((reference, index) => (
+                        <p key={index}>{reference}</p>
+                    ))}
                 </Accordion>
 
                 <Accordion title="Contact">
