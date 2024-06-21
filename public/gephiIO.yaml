@@ -441,3 +441,205 @@
             - Knowledge Model:
                   - "Features"
                   - "Production rules"
+
+- node: "49"
+  references:
+    - "Bonev et al. 2015"
+  inputs:
+    - "Design Structure Matrix"
+  outputs:
+    - Node Link Diagram:
+        - "Actor: Component or function"
+        - "Links between actors"
+
+- node: "50"
+  references:
+    - "Danjou et al. 2008"
+  inputs:
+    - "3D CAD Model"
+  outputs:
+    - "NVH Model"
+
+- node: "51"
+  references:
+    - "Ameri et al. 2008"
+  inputs:
+    - "Existing Physical System"
+  outputs:
+    - Parametric associativity Graph:
+        - "Components"
+        - "Connections"
+        - Parameters:
+            - "Geometric dimensions"
+            - "Material"
+            - "Surface finish"
+
+- node: "52"
+  references:
+    -"He et al. 2013"
+  inputs:
+    - "Feature-Based Effect Model"
+    - "Feature-Based Physical Quantity Model"
+    - "Feature-Based Structure Concept Model"
+  outputs:
+    - "Principle Solution Representation"
+
+- node: "53"
+  references:
+    - "Feldhusen and Grote 2013"
+  inputs:
+    - "Function Structure"
+    - "Product Structure"#
+  outputs:
+    - "Product Architecture"
+
+- node: "54"
+  references:
+    - "Baxter et al. 2008"
+    - "Langeveld 2011"
+    - "Wölkl and Shea 2009"
+  inputs:
+    - "Existing Product"
+  outputs:
+    - "Product Structure Model"
+
+- node: "55"
+  references:
+    - "Andreasen et al. 2015"
+    - "Morales et al. 2022"
+  inputs:
+    - "Provisional Design"
+    - "Product Layout"
+  outputs:
+    - Prototype:
+        - "Physical or digital embodiment of critical elements of the intended design"
+
+- node: "56"
+  references:
+    - "Berselli et al. 2016"
+    - "Bilancia et al. 2017"
+  inputs:
+    - "3D CAD Model"
+  outputs:
+    - "Pseudo Rigid Body Model"
+
+- node: "57"
+  references:
+    - "Fang et al. 2014"
+  inputs:
+    - "CAD Model"
+  outputs:
+    - Remanufacturability Model:
+        - "Components"
+        - "Interrelation mechanisms between components"
+        - "Attributes"
+        - "Remanufacturability metrics"
+
+- node: "58"
+  references:
+    - "Sarkar et al. 2017"
+  inputs:
+    - "SAPPhIRE Model"
+  outputs:
+    - SAPPhIRE/-lite Model:
+        - "State-change"
+        - "Action"
+        - "Parts"
+        - "Phenomenon"
+        - "Inputs"
+        - "Organs"
+        - "Effect"
+
+- node: "59"
+  references:
+    - "Gadeyne et al. 2014"
+  inputs: []
+  outputs:
+    - "Schematic Representation"
+
+- node: "60"
+  references:
+    - "Andreasen et al. 2015"
+    - "Seybold and Mantwill 2021"
+  inputs:
+    - "Mental Model"
+  outputs:
+    - "Sketches"
+
+- node: "61"
+  references:
+    - "Rihtaršič et al. 2012"
+  inputs:
+    - "System function"
+  outputs:
+    - Solution Chain by Rihtarsic:
+        - "Chain of Physical Laws"
+        - "Basic Scheme = Abstract, Initial Structure"
+
+- node: "62"
+  references:
+    - "Künne and Wieczorek 2010"
+  inputs:
+    - "Functon-relevant parameters"
+  outputs:
+    - Statistical Model:
+        - "Mathematical Formula Expressing the Functional Relation between Parameters"
+
+- node: "63"
+  references:
+    - "Goel et al. 2012"
+  inputs:
+    - "Existing System"
+  outputs:
+    - Structure-Behavior-Function Model:
+        - Structure:
+            - "Components"
+            - "Connections"
+        - Behavior:
+            - "Causal processes"
+            - "Mechanisms occurring in the system"
+        - "Function"
+
+- node: "68"
+  references:
+    - "Chen et al. 2018"
+  inputs:
+    - "3D CAD Model"
+  outputs:
+    - SysML Extension ArchME Model:
+        - System Architecture:
+            - "Function"
+            - "Behavior"
+            - "Structure"
+            - "Associations"
+
+- node: "64"
+  references:
+    - "Andreasen et al. 2015"
+  inputs:
+    - "Technical Drawing"
+  outputs:
+    - "Symbolic Representation"
+
+- node: "65"
+  references:
+    - "Hmina et al. 2021"
+  inputs:
+    - "Structural decomposition of the system"
+  outputs:
+    - System Graph:
+        - "Component"
+        - "Connections between the components"
+    - "Matrix Representation of a System Graph"
+
+- node: "66"
+  references:
+    - "Beetz et al. 2018"
+    - "Schmitt and Kirchner 2022"
+  inputs:
+    - "2D/3D CAD Model"
+    - "Technical Drawing"
+  outputs:
+    - Working Space Model:
+        - "Working spaces"
+        - "Relations between working spaces"
