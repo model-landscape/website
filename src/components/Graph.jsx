@@ -64,23 +64,35 @@ function Graph({ gephiData, gephiIOData }) {
 
         // Adjust opacity and size of nodes
         d3.selectAll(".node")
-            .style("opacity", (d) =>
-                neighboringNodeIDs.includes(d.id) ? 1 : 0.2
-            )
-            .attr("r", (d) =>
-                neighboringNodeIDs.includes(d.id) ? d.size * 1.5 : d.size
-            );
+            .style("opacity", (d) => {
+                if (neighboringNodeIDs.includes(d.id) || d.id === node.id) {
+                    return 1;
+                } else {
+                    return 0.2;
+                }
+            })
+            .attr("r", (d) => {
+                if (neighboringNodeIDs.includes(d.id) || d.id === node.id) {
+                    return d.size * 1.5;
+                } else {
+                    return d.size;
+                }
+            });
 
         d3.selectAll(".label")
             .attr("transform", (d) => {
-                if (neighboringNodeIDs.includes(d.id)) {
+                if (neighboringNodeIDs.includes(d.id) || d.id === node.id) {
                     const translateY = d.size * 1.5 - d.size;
                     return `translate(0,${translateY})`;
                 }
             })
-            .style("opacity", (d) =>
-                neighboringNodeIDs.includes(d.id) ? 1 : 0
-            );
+            .style("opacity", (d) => {
+                if (neighboringNodeIDs.includes(d.id) || d.id === node.id) {
+                    return 1;
+                } else {
+                    return 0;
+                }
+            });
 
         // Adjust opacity of edges
         d3.selectAll(".edge").style("opacity", (edge) =>

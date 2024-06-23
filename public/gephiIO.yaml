@@ -476,7 +476,7 @@
 
 - node: "52"
   references:
-    -"He et al. 2013"
+    - "He et al. 2013"
   inputs:
     - "Feature-Based Effect Model"
     - "Feature-Based Physical Quantity Model"
