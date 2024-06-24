@@ -1,0 +1,645 @@
+- node: "17"
+  references:
+      - "Aranburu et al. 2022"
+      - "Eifler and Howard 2018"
+      - "Favi et al. 2021"
+      - "Grauberger et al. 2021"
+      - "Müller et al. 2020"
+      - "Vlah et al. 2021"
+  inputs:
+      - "Physical System"
+      - "Sketches"
+      - "Mesh File"
+      - "Design Graph"
+  outputs:
+      - CAD Model:
+            - "Product geometry (the shape of the product)"
+            - "Product topology (the relations of the individual shapes)"
+            - Technical features:
+                  - "Component feature"
+                  - "Geometry feature"
+                  - "Interaction feature"
+      - "Design tree"
+      - "2D PDF drawing"
+
+- node: "67"
+  references:
+      - "Eisenbart et al. 2017"
+  inputs:
+      - Requirements List:
+            - "Sub-systems"
+  outputs:
+      - "Allocation Matrix"
+
+- node: "18"
+  references:
+      - "Leu et al. 2009"
+  inputs:
+      - "Information Flow Model"
+  outputs:
+      - Axiomatix Design Equation:
+            - "Functionial requirements"
+            - "Design matrix"
+            - "Design parameters"
+
+- node: "19"
+  references:
+      - "Cao and Fu 2011"
+  inputs:
+      - "Bond Graph Model"
+  outputs:
+      - "Matrix Model"
+
+- node: "20"
+  references:
+      - "Cao and Fu 2011"
+      - "Mokhtarian et al. 2017"
+      - "Muenzer and Shea 2017"
+  inputs:
+      - "Function Structure"
+      - "Concept Model Graph"
+  outputs:
+      - Bond Graph Model:
+            - "Effort Source"
+            - "Flow Source"
+            - "Inertial elements"
+            - "Capacitive elements"
+            - "Resistive elements"
+            - "Transformer elements"
+            - "Gyrator elements"
+            - "Effort junction"
+            - "Flow junction"
+
+- node: "21"
+  references:
+      - "Mokhtarian et al. 2017"
+  inputs:
+      - "Bond Graph Model"
+      - "Function Structure"
+  outputs:
+      - Causal Graph:
+            - "Cause-effect relationships between variables"
+            - "Variables"
+
+- node: "22"
+  references:
+      - "Muenzer and Shea 2017"
+  inputs:
+      - "Product concept topology"
+  outputs:
+      - Concept Model Graph:
+            - Components:
+                  - "Attributes"
+                  - "Interfaces"
+            - "Relations between components"
+
+- node: "23"
+  references:
+      - "Ameri et al. 2008"
+  inputs:
+      - "Physical System"
+  outputs:
+      - Connectivity Graph:
+            - "Components"
+            - "Physical relationships between components"
+
+- node: "24"
+  references:
+      - "Albers et al. 2009"
+      - "Albers et al. 2019"
+      - "Boersting et al. 2008"
+      - "Freund et al. 2015"
+      - "Gladysz et al. 2018"
+      - "Gladysz and Albers 2018a, 2018b"
+      - "Grauberger et al. 2020a"
+      - "Grauberger et al. 2020b"
+      - "Grauberger et al. 2020c"
+      - "Grauberger et al. 2020d"
+      - "Grauberger et al. 2021"
+      - "Grauberger et al. 2022"
+      - "Matthiesen et al. 2019a"
+      - "Wettstein et al. 2021"
+      - "Zingel et al. 2012"
+  inputs:
+      - "Physical System"
+      - "Sketch"
+      - "Technical Drawing"
+      - "2D/3D CAD Model"
+  outputs:
+      - Wirk-structure (multiple C&C²-Models):
+            - Wirk-net (= C&C²-Model):
+                  - "Working surface pairs"
+                  - "Channel and support structures"
+                  - "Connectors"
+
+- node: "25"
+  references:
+      - "Leu et al. 2009"
+  inputs:
+      - "Function Tree"
+  outputs:
+      - Context Object Diagram:
+            - "Scope of the product"
+            - "Interactions between the top-level product object and external objects"
+
+- node: "26"
+  references:
+      - "Dantan et al. 2013"
+      - "Köhler 2009"
+      - "Weber 2005, 2014"
+  inputs:
+      - "3D CAD Model"
+      - "Physical System"
+      - "Mock-Ups"
+      - "Prototypes"
+  outputs:
+      - CPM Diagram:
+            - "Characteristics"
+            - "Properties"
+            - "Required properties"
+            - "Relations"
+            - "External conditions"
+      - "Matrix Representation of the CPM Diagram"
+
+- node: "27"
+  references:
+      - "Elwert et al. 2019"
+      - "Elwert et al. 2022"
+  inputs:
+      - "Integrated Function Model"
+  outputs:
+      - "Design Graph"
+
+- node: "28"
+  references:
+      - "Bonev et al. 2015"
+      - "Browning 2016"
+      - "Eppinger and Browning 2012"
+      - "Wilschut et al. 2018"
+  inputs:
+      - "Physical System"
+      - Technical Drawing:
+            - "System elements"
+            - "Relationships"
+      - "Node Link Diagram"
+      - "Functional Description"
+      - "CPM"
+      - "Enhanced Function-Means Model"
+      - "Integrated Function Model"
+  outputs:
+      - Design Structure Matrix:
+            - Product structure:
+                  - "Elements"
+                  - "Relations"
+
+- node: "29"
+  references:
+      - "Danjou et al. 2008"
+      - "Riascos et al. 2015"
+  inputs:
+      - 3D CAD Model:
+            - "Geometrical data"
+      - Product Structure:
+            - "Hierarchical decomposition of the product"
+      - "Metadata"
+  outputs:
+      - "Digital Mock-Up (Realistic computer simulation of a product incl. needed functionalities)"
+
+- node: "30"
+  references:
+      - "Müller et al. 2019a"
+      - "Müller et al. 2019b"
+      - "Müller et al. 2020"
+  inputs:
+      - "Physical System"
+      - "CAD Model"
+  outputs:
+      - Enhanced Function-Means Model:
+            - Hierarchical product architecture:
+                  - "Design solution"
+                  - "Functionial requirement"
+                  - "Constraint"
+                  - "Is solved by"
+                  - "Requires function"
+                  - "Is constrained by"
+                  - "Interacts with"
+                  - "Is partially met by"
+
+- node: "31"
+  references:
+      - "He et al. 2013, 2015"
+  inputs: []
+  outputs:
+      - Feature-Based Functional Model:
+            - "Transformation feature of acting/working objects"
+            - "feature of action/working objects"
+
+- node: "32"
+  references:
+      - "He et al. 2013"
+  inputs:
+      - "Feature-Based Functional Model"
+  outputs:
+      - Feature-Based Effect Model:
+            - "Main feature"
+            - "Condition feature"
+            - "Influence feature"
+
+- node: "33"
+  references:
+      - "He et al. 2013"
+  inputs:
+      - "Feature-Based Effect Model"
+  outputs:
+      - Feature-Based Physical Quantity Model:
+            - "Name"
+            - "Magnitude"
+            - "Unit"
+            - "Type"
+            - "Vector"
+            - "Constancy"
+
+- node: "34"
+  references:
+      - "He et al. 2013"
+  inputs:
+      - "Feature-Based Effect Model"
+      - "Feature-Based Physical Quantity Model"
+      - "Feature-Based Structure Concept Model"
+  outputs:
+      - Feature-Based Working Principle Model:
+            - "Effect"
+            - "Effect carrier"
+
+- node: "35"
+  references:
+      - "He et al. 2013"
+  inputs:
+      - "Feature-Based Effect Model"
+      - "Feature-Based Physical Quantity Model"
+      - "Feature-Based Working Principle Model"
+  outputs:
+      - Feature-Based Structure Concept Model:
+            - "Working principle feature"
+            - "Working principle carrier"
+
+- node: "36"
+  references:
+      - "Danjou et al. 2008"
+      - "Rajaguru et al. 2010"
+  inputs:
+      - 3D CAD Model:
+            - "Material behavior"
+            - "Loading conditions"
+      - "Design Graph"
+  outputs:
+      - FEM Model:
+            - "Vibration magnitude"
+            - "Maximum stress"
+            - "Displacement"
+
+- node: "37"
+  references:
+      - "Gu et al. 2012"
+  inputs: []
+  outputs:
+      - Functional Sketch:
+            - "Working principles of design alternatives"
+
+- node: "38"
+  references:
+      - "Atherton et al. 2018"
+  inputs:
+      - "Geometric features described in patent claims"
+  outputs:
+      - Functional Analysis Diagram Plus:
+            - "Feature names"
+            - "Functional interactions"
+
+- node: "39"
+  references:
+      - "Albers et al. 2019"
+  inputs:
+      - "C&C²-Model"
+      - "CAD Model"
+      - "Drawing"
+      - "Physical Reference Element"
+  outputs:
+      - Function-Effort-Matrix:
+            - "Subsystem contribution to function fulfillment"
+            - "Effort per function"
+
+- node: "40"
+  references:
+      - "Cao and Fu 2011"
+      - "Nagel et al. 2008"
+  inputs:
+      - "Matrix Model"
+      - "Behavioral Matrix"
+  outputs:
+      - Function Means Tree:
+            - Functional decomposition:
+                  - "Functions"
+                  - "Means"
+
+- node: "41"
+  references:
+      - "Ameri et al. 2008"
+      - "Chakrabarti et al. 2011"
+      - "Gericke and Eisenbart 2017"
+      - "He et al. 2015"
+      - "Mokhtarian et al. 2017"
+      - "Wölkl and Shea 2009"
+  inputs:
+      - "Reference System"
+      - "Existing Product"
+  outputs:
+      - "Function Structure"
+      - Block Diagram:
+            - "Interrelations between different functions"
+            - "Functions"
+
+- node: "42"
+  references:
+      - "Boersting et al. 2008"
+      - "Leu et al. 2009"
+  inputs:
+      - "Main Function"
+  outputs:
+      - Function Tree:
+            - "Hierarchical representation of product functions"
+
+- node: "43"
+  references:
+      - "Leu et al. 2009"
+  inputs:
+      - "Context Object Diagram"
+  outputs:
+      - High Order Object Model:
+            - "Component objects"
+            - "Relations"
+            - "Object attributes"
+
+- node: "44"
+  references:
+      - "Elwert et al. 2019"
+      - "Elwert et al. 2022"
+      - "Gericke and Eisenbart 2017"
+  inputs:
+      - "Requirement specification"
+      - "Existing Physical System"
+  outputs:
+      - Integrated Function Model:
+            - "Use case view"
+            - "State view"
+            - "Interaction view"
+            - "Actor view"
+            - "Process flow view"
+            - "Effect view"
+      - "Design Structure Matrix"
+
+- node: "45"
+  references:
+      - "He and Huang 2016"
+  inputs:
+      - "Schematic Drawing"
+  outputs:
+      - Kinematic Function Model:
+            - "Relationship between the input and output state of a system"
+
+- node: "46"
+  references:
+      - "Gao et al. 2015"
+  inputs:
+      - "Virtual Model"
+  outputs:
+      - "Kinematic Model"
+
+- node: "47"
+  references:
+      - "Danjou et al. 2008"
+      - "He et al. 2012"
+  inputs:
+      - "3D CAD Model"
+      - "Virtual Representation of the Structural Components of an Existing System"
+      - "Design Graph"
+  outputs:
+      - "Multibody System"
+
+- node: "48"
+  references:
+      - "Rasoulifar et al. 2012"
+  inputs: []
+  outputs:
+      - Multi-view Product Model:
+            - Data Model:
+                  - Skeleton of a product:
+                        - "Components"
+                        - "Characteristics"
+                        - "Links"
+                        - "Relations"
+            - Knowledge Model:
+                  - "Features"
+                  - "Production rules"
+
+- node: "49"
+  references:
+    - "Bonev et al. 2015"
+  inputs:
+    - "Design Structure Matrix"
+  outputs:
+    - Node Link Diagram:
+        - "Actor: Component or function"
+        - "Links between actors"
+
+- node: "50"
+  references:
+    - "Danjou et al. 2008"
+  inputs:
+    - "3D CAD Model"
+  outputs:
+    - "NVH Model"
+
+- node: "51"
+  references:
+    - "Ameri et al. 2008"
+  inputs:
+    - "Existing Physical System"
+  outputs:
+    - Parametric associativity Graph:
+        - "Components"
+        - "Connections"
+        - Parameters:
+            - "Geometric dimensions"
+            - "Material"
+            - "Surface finish"
+
+- node: "52"
+  references:
+    - "He et al. 2013"
+  inputs:
+    - "Feature-Based Effect Model"
+    - "Feature-Based Physical Quantity Model"
+    - "Feature-Based Structure Concept Model"
+  outputs:
+    - "Principle Solution Representation"
+
+- node: "53"
+  references:
+    - "Feldhusen and Grote 2013"
+  inputs:
+    - "Function Structure"
+    - "Product Structure"#
+  outputs:
+    - "Product Architecture"
+
+- node: "54"
+  references:
+    - "Baxter et al. 2008"
+    - "Langeveld 2011"
+    - "Wölkl and Shea 2009"
+  inputs:
+    - "Existing Product"
+  outputs:
+    - "Product Structure Model"
+
+- node: "55"
+  references:
+    - "Andreasen et al. 2015"
+    - "Morales et al. 2022"
+  inputs:
+    - "Provisional Design"
+    - "Product Layout"
+  outputs:
+    - Prototype:
+        - "Physical or digital embodiment of critical elements of the intended design"
+
+- node: "56"
+  references:
+    - "Berselli et al. 2016"
+    - "Bilancia et al. 2017"
+  inputs:
+    - "3D CAD Model"
+  outputs:
+    - "Pseudo Rigid Body Model"
+
+- node: "57"
+  references:
+    - "Fang et al. 2014"
+  inputs:
+    - "CAD Model"
+  outputs:
+    - Remanufacturability Model:
+        - "Components"
+        - "Interrelation mechanisms between components"
+        - "Attributes"
+        - "Remanufacturability metrics"
+
+- node: "58"
+  references:
+    - "Sarkar et al. 2017"
+  inputs:
+    - "SAPPhIRE Model"
+  outputs:
+    - SAPPhIRE/-lite Model:
+        - "State-change"
+        - "Action"
+        - "Parts"
+        - "Phenomenon"
+        - "Inputs"
+        - "Organs"
+        - "Effect"
+
+- node: "59"
+  references:
+    - "Gadeyne et al. 2014"
+  inputs: []
+  outputs:
+    - "Schematic Representation"
+
+- node: "60"
+  references:
+    - "Andreasen et al. 2015"
+    - "Seybold and Mantwill 2021"
+  inputs:
+    - "Mental Model"
+  outputs:
+    - "Sketches"
+
+- node: "61"
+  references:
+    - "Rihtaršič et al. 2012"
+  inputs:
+    - "System function"
+  outputs:
+    - Solution Chain by Rihtarsic:
+        - "Chain of Physical Laws"
+        - "Basic Scheme = Abstract, Initial Structure"
+
+- node: "62"
+  references:
+    - "Künne and Wieczorek 2010"
+  inputs:
+    - "Functon-relevant parameters"
+  outputs:
+    - Statistical Model:
+        - "Mathematical Formula Expressing the Functional Relation between Parameters"
+
+- node: "63"
+  references:
+    - "Goel et al. 2012"
+  inputs:
+    - "Existing System"
+  outputs:
+    - Structure-Behavior-Function Model:
+        - Structure:
+            - "Components"
+            - "Connections"
+        - Behavior:
+            - "Causal processes"
+            - "Mechanisms occurring in the system"
+        - "Function"
+
+- node: "68"
+  references:
+    - "Chen et al. 2018"
+  inputs:
+    - "3D CAD Model"
+  outputs:
+    - SysML Extension ArchME Model:
+        - System Architecture:
+            - "Function"
+            - "Behavior"
+            - "Structure"
+            - "Associations"
+
+- node: "64"
+  references:
+    - "Andreasen et al. 2015"
+  inputs:
+    - "Technical Drawing"
+  outputs:
+    - "Symbolic Representation"
+
+- node: "65"
+  references:
+    - "Hmina et al. 2021"
+  inputs:
+    - "Structural decomposition of the system"
+  outputs:
+    - System Graph:
+        - "Component"
+        - "Connections between the components"
+    - "Matrix Representation of a System Graph"
+
+- node: "66"
+  references:
+    - "Beetz et al. 2018"
+    - "Schmitt and Kirchner 2022"
+  inputs:
+    - "2D/3D CAD Model"
+    - "Technical Drawing"
+  outputs:
+    - Working Space Model:
+        - "Working spaces"
+        - "Relations between working spaces"

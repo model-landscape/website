@@ -1,0 +1,2988 @@
+{
+    "nodes": [
+        {
+            "label": "SAPPhIRE/-lite Model",
+            "x": 1449.9210205078125,
+            "y": -2458.309814453125,
+            "id": "58",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "0.0",
+                "Closeness Centrality": "0.0",
+                "Component ID": "1",
+                "Eigenvector Centrality": "0.0",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "0.0",
+                "typ": "Model",
+                "Gewichteter Grad": "0.0",
+                "Harmonic Closeness Centrality": "0.0",
+                "Number of triangles": "0",
+                "Grad": "0"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 10.0
+        },
+        {
+            "label": "Integrated Function Model",
+            "x": 61.63529586791992,
+            "y": 635.8758544921875,
+            "id": "44",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "4.0",
+                "Closeness Centrality": "0.41139240506329117",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.2822573322401125",
+                "Clustering Coefficient": "0.3",
+                "Betweenness Centrality": "40.07333961299306",
+                "typ": "Model",
+                "Gewichteter Grad": "5.0",
+                "Harmonic Closeness Centrality": "0.45769230769230745",
+                "Number of triangles": "3",
+                "Grad": "5"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 19.09090805053711
+        },
+        {
+            "label": "2D/3D CAD Model",
+            "x": -936.6145629882812,
+            "y": -256.932861328125,
+            "id": "16",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "4.0",
+                "Closeness Centrality": "0.42483660130718953",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.6395212728124514",
+                "Clustering Coefficient": "0.20512820512820512",
+                "Betweenness Centrality": "96.59380367155508",
+                "typ": "Category",
+                "Gewichteter Grad": "14.0",
+                "Harmonic Closeness Centrality": "0.5128205128205126",
+                "Number of triangles": "16",
+                "Grad": "14"
+            },
+            "color": "rgb(63,177,125)",
+            "size": 33.63636016845703
+        },
+        {
+            "label": "Feature-based Physical Quantity Model",
+            "x": 3204.77197265625,
+            "y": 876.4869995117188,
+            "id": "33",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "6.0",
+                "Closeness Centrality": "0.24528301886792453",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.04104992295340421",
+                "Clustering Coefficient": "0.8333333333333334",
+                "Betweenness Centrality": "0.3333333333333333",
+                "typ": "Model",
+                "Gewichteter Grad": "4.0",
+                "Harmonic Closeness Centrality": "0.2951282051282051",
+                "Number of triangles": "5",
+                "Grad": "4"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 17.272727966308594
+        },
+        {
+            "label": "High Order Object Model",
+            "x": -666.6710815429688,
+            "y": 1150.5615234375,
+            "id": "43",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.3611111111111111",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.1566012780221635",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "16.321764346764343",
+                "typ": "Model",
+                "Gewichteter Grad": "4.0",
+                "Harmonic Closeness Centrality": "0.40999999999999986",
+                "Number of triangles": "0",
+                "Grad": "4"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 17.272727966308594
+        },
+        {
+            "label": "Drawing",
+            "x": 28.985334396362305,
+            "y": -608.61181640625,
+            "id": "2",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "4.0",
+                "Closeness Centrality": "0.3869047619047619",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.2552009590919264",
+                "Clustering Coefficient": "0.2",
+                "Betweenness Centrality": "28.825198412698406",
+                "typ": "Category",
+                "Gewichteter Grad": "5.0",
+                "Harmonic Closeness Centrality": "0.43717948717948696",
+                "Number of triangles": "2",
+                "Grad": "5"
+            },
+            "color": "rgb(63,177,125)",
+            "size": 19.09090805053711
+        },
+        {
+            "label": "Virtual Representation",
+            "x": -1639.218017578125,
+            "y": -358.6204833984375,
+            "id": "15",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.3651685393258427",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.31535197345981136",
+                "Clustering Coefficient": "0.3333333333333333",
+                "Betweenness Centrality": "72.2653318903319",
+                "typ": "Category",
+                "Gewichteter Grad": "6.0",
+                "Harmonic Closeness Centrality": "0.42897435897435876",
+                "Number of triangles": "5",
+                "Grad": "6"
+            },
+            "color": "rgb(63,177,125)",
+            "size": 20.90909194946289
+        },
+        {
+            "label": "Attributes",
+            "x": -1138.4649658203125,
+            "y": 736.6414794921875,
+            "id": "0",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.3651685393258427",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.21475505377090456",
+                "Clustering Coefficient": "0.16666666666666666",
+                "Betweenness Centrality": "18.085051060051057",
+                "typ": "Category",
+                "Gewichteter Grad": "4.0",
+                "Harmonic Closeness Centrality": "0.41871794871794843",
+                "Number of triangles": "1",
+                "Grad": "4"
+            },
+            "color": "rgb(63,177,125)",
+            "size": 17.272727966308594
+        },
+        {
+            "label": "Causal Graph",
+            "x": -302.6357116699219,
+            "y": 1515.444580078125,
+            "id": "21",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.3672316384180791",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.20925069302821164",
+                "Clustering Coefficient": "0.3",
+                "Betweenness Centrality": "18.374009955888518",
+                "typ": "Model",
+                "Gewichteter Grad": "6.0",
+                "Harmonic Closeness Centrality": "0.4215384615384613",
+                "Number of triangles": "3",
+                "Grad": "6"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 20.90909194946289
+        },
+        {
+            "label": "Solution Chain by Rihtarsic",
+            "x": -1095.239013671875,
+            "y": -3271.793212890625,
+            "id": "61",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "6.0",
+                "Closeness Centrality": "0.23465703971119134",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.009352258623138349",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "0.0",
+                "typ": "Model",
+                "Gewichteter Grad": "1.0",
+                "Harmonic Closeness Centrality": "0.25538461538461527",
+                "Number of triangles": "0",
+                "Grad": "1"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 11.818181991577148
+        },
+        {
+            "label": "Function Structure",
+            "x": 213.29327392578125,
+            "y": 1690.095458984375,
+            "id": "7",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.34210526315789475",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.11998310074026496",
+                "Clustering Coefficient": "0.16666666666666666",
+                "Betweenness Centrality": "27.406504679530993",
+                "typ": "Category",
+                "Gewichteter Grad": "4.0",
+                "Harmonic Closeness Centrality": "0.3956410256410255",
+                "Number of triangles": "1",
+                "Grad": "4"
+            },
+            "color": "rgb(63,177,125)",
+            "size": 17.272727966308594
+        },
+        {
+            "label": "Tree",
+            "x": 302.65716552734375,
+            "y": 613.359375,
+            "id": "9",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "4.0",
+                "Closeness Centrality": "0.3987730061349693",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.2378061817930286",
+                "Clustering Coefficient": "0.16666666666666666",
+                "Betweenness Centrality": "36.77666361416361",
+                "typ": "Category",
+                "Gewichteter Grad": "4.0",
+                "Harmonic Closeness Centrality": "0.44615384615384596",
+                "Number of triangles": "1",
+                "Grad": "4"
+            },
+            "color": "rgb(63,177,125)",
+            "size": 17.272727966308594
+        },
+        {
+            "label": "Node Link Diagram",
+            "x": -473.0114440917969,
+            "y": 1185.8397216796875,
+            "id": "49",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.3672316384180791",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.2791715203775098",
+                "Clustering Coefficient": "0.3",
+                "Betweenness Centrality": "11.20671632289279",
+                "typ": "Model",
+                "Gewichteter Grad": "6.0",
+                "Harmonic Closeness Centrality": "0.43128205128205105",
+                "Number of triangles": "3",
+                "Grad": "6"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 20.90909194946289
+        },
+        {
+            "label": "Allocation Matrix",
+            "x": 23.862350463867188,
+            "y": 2391.71875,
+            "id": "67",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "0.0",
+                "Closeness Centrality": "0.0",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.0",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "0.0",
+                "typ": "Model",
+                "Gewichteter Grad": "1.0",
+                "Harmonic Closeness Centrality": "0.0",
+                "Number of triangles": "0",
+                "Grad": "1"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 10.0
+        },
+        {
+            "label": "Feature-based Effect Model",
+            "x": 2445.93115234375,
+            "y": 751.570068359375,
+            "id": "32",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.31862745098039214",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.09663296157581723",
+                "Clustering Coefficient": "0.4",
+                "Betweenness Centrality": "244.33333333333337",
+                "typ": "Model",
+                "Gewichteter Grad": "6.0",
+                "Harmonic Closeness Centrality": "0.38589743589743575",
+                "Number of triangles": "6",
+                "Grad": "6"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 20.90909194946289
+        },
+        {
+            "label": "FEM Simulation Model",
+            "x": -554.5064086914062,
+            "y": 43.54096221923828,
+            "id": "36",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "4.0",
+                "Closeness Centrality": "0.39156626506024095",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.32590665150685555",
+                "Clustering Coefficient": "0.6666666666666666",
+                "Betweenness Centrality": "2.1322150072150072",
+                "typ": "Model",
+                "Gewichteter Grad": "4.0",
+                "Harmonic Closeness Centrality": "0.43974358974358946",
+                "Number of triangles": "4",
+                "Grad": "4"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 17.272727966308594
+        },
+        {
+            "label": "Characteristics Properties Model",
+            "x": -967.1951904296875,
+            "y": 363.3335876464844,
+            "id": "26",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.41935483870967744",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.5050269386695364",
+                "Clustering Coefficient": "0.32142857142857145",
+                "Betweenness Centrality": "58.44524788077419",
+                "typ": "Model",
+                "Gewichteter Grad": "8.0",
+                "Harmonic Closeness Centrality": "0.4956410256410256",
+                "Number of triangles": "9",
+                "Grad": "8"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 24.545455932617188
+        },
+        {
+            "label": "Sketches",
+            "x": -509.1507263183594,
+            "y": -1162.5252685546875,
+            "id": "60",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.3611111111111111",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.2071661151126918",
+                "Clustering Coefficient": "1.0",
+                "Betweenness Centrality": "0.0",
+                "typ": "Model",
+                "Gewichteter Grad": "3.0",
+                "Harmonic Closeness Centrality": "0.40589743589743554",
+                "Number of triangles": "3",
+                "Grad": "3"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 15.454545974731445
+        },
+        {
+            "label": "Axiomatic Design Model",
+            "x": 406.9519958496094,
+            "y": 2247.07861328125,
+            "id": "18",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.2813852813852814",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.04340356281600683",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "0.0",
+                "typ": "Model",
+                "Gewichteter Grad": "1.0",
+                "Harmonic Closeness Centrality": "0.30923076923076914",
+                "Number of triangles": "0",
+                "Grad": "1"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 11.818181991577148
+        },
+        {
+            "label": "Behavioral Matrix",
+            "x": 263.7755432128906,
+            "y": 1543.3428955078125,
+            "id": "19",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.35714285714285715",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.17100230548547354",
+                "Clustering Coefficient": "0.3333333333333333",
+                "Betweenness Centrality": "10.021905259426479",
+                "typ": "Model",
+                "Gewichteter Grad": "4.0",
+                "Harmonic Closeness Centrality": "0.40743589743589725",
+                "Number of triangles": "2",
+                "Grad": "4"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 17.272727966308594
+        },
+        {
+            "label": "Pseudo Rigid Body Model",
+            "x": -1157.3001708984375,
+            "y": -908.4799194335938,
+            "id": "56",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.34759358288770054",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.2010568350205311",
+                "Clustering Coefficient": "1.0",
+                "Betweenness Centrality": "0.0",
+                "typ": "Model",
+                "Gewichteter Grad": "2.0",
+                "Harmonic Closeness Centrality": "0.38666666666666644",
+                "Number of triangles": "1",
+                "Grad": "2"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 13.636363983154297
+        },
+        {
+            "label": "Bond Graph Model",
+            "x": -209.385498046875,
+            "y": 1644.2171630859375,
+            "id": "20",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.3735632183908046",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.21094389424930865",
+                "Clustering Coefficient": "0.3333333333333333",
+                "Betweenness Centrality": "25.7557465973001",
+                "typ": "Model",
+                "Gewichteter Grad": "7.0",
+                "Harmonic Closeness Centrality": "0.4330769230769228",
+                "Number of triangles": "5",
+                "Grad": "7"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 22.727272033691406
+        },
+        {
+            "label": "Function Model",
+            "x": 646.2604370117188,
+            "y": 554.247802734375,
+            "id": "6",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "4.0",
+                "Closeness Centrality": "0.436241610738255",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.3860618893199634",
+                "Clustering Coefficient": "0.03296703296703297",
+                "Betweenness Centrality": "506.1272354414119",
+                "typ": "Category",
+                "Gewichteter Grad": "16.0",
+                "Harmonic Closeness Centrality": "0.5294871794871796",
+                "Number of triangles": "3",
+                "Grad": "16"
+            },
+            "color": "rgb(63,177,125)",
+            "size": 35.45454406738281
+        },
+        {
+            "label": "Principle Solution Representation Model",
+            "x": 3272.7021484375,
+            "y": 1126.89404296875,
+            "id": "52",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "6.0",
+                "Closeness Centrality": "0.24436090225563908",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.03474850701664341",
+                "Clustering Coefficient": "1.0",
+                "Betweenness Centrality": "0.0",
+                "typ": "Model",
+                "Gewichteter Grad": "3.0",
+                "Harmonic Closeness Centrality": "0.2874358974358974",
+                "Number of triangles": "3",
+                "Grad": "3"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 15.454545974731445
+        },
+        {
+            "label": "C\u0026C²-Model",
+            "x": -677.4134521484375,
+            "y": -880.2553100585938,
+            "id": "24",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "4.0",
+                "Closeness Centrality": "0.42483660130718953",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.42495691164043825",
+                "Clustering Coefficient": "0.2857142857142857",
+                "Betweenness Centrality": "222.4965728715729",
+                "typ": "Model",
+                "Gewichteter Grad": "8.0",
+                "Harmonic Closeness Centrality": "0.487179487179487",
+                "Number of triangles": "8",
+                "Grad": "8"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 24.545455932617188
+        },
+        {
+            "label": "Physical System",
+            "x": -760.3030395507812,
+            "y": 427.283203125,
+            "id": "11",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "4.0",
+                "Closeness Centrality": "0.4452054794520548",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.6087237605157101",
+                "Clustering Coefficient": "0.11538461538461539",
+                "Betweenness Centrality": "211.37000052044115",
+                "typ": "Category",
+                "Gewichteter Grad": "13.0",
+                "Harmonic Closeness Centrality": "0.5307692307692307",
+                "Number of triangles": "9",
+                "Grad": "13"
+            },
+            "color": "rgb(63,177,125)",
+            "size": 33.63636016845703
+        },
+        {
+            "label": "Kinematic Function Model",
+            "x": 354.8379211425781,
+            "y": -124.60001373291016,
+            "id": "45",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.37142857142857144",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.14206329940176246",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "22.00643258280829",
+                "typ": "Model",
+                "Gewichteter Grad": "3.0",
+                "Harmonic Closeness Centrality": "0.41256410256410236",
+                "Number of triangles": "0",
+                "Grad": "3"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 15.454545974731445
+        },
+        {
+            "label": "Kinematic Model",
+            "x": -2554.501953125,
+            "y": -822.8306274414062,
+            "id": "46",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "6.0",
+                "Closeness Centrality": "0.26859504132231404",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.03924705050397078",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "0.0",
+                "typ": "Model",
+                "Gewichteter Grad": "1.0",
+                "Harmonic Closeness Centrality": "0.2958974358974358",
+                "Number of triangles": "0",
+                "Grad": "1"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 11.818181991577148
+        },
+        {
+            "label": "Schematic Representation",
+            "x": -1057.488037109375,
+            "y": -2381.11962890625,
+            "id": "14",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.3051643192488263",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.05865712095439308",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "127.0",
+                "typ": "Category",
+                "Gewichteter Grad": "3.0",
+                "Harmonic Closeness Centrality": "0.3443589743589742",
+                "Number of triangles": "0",
+                "Grad": "3"
+            },
+            "color": "rgb(63,177,125)",
+            "size": 15.454545974731445
+        },
+        {
+            "label": "Function Structure",
+            "x": -165.8492889404297,
+            "y": 1083.2274169921875,
+            "id": "41",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "4.0",
+                "Closeness Centrality": "0.4088050314465409",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.2529291952161812",
+                "Clustering Coefficient": "0.06666666666666667",
+                "Betweenness Centrality": "89.92971751483311",
+                "typ": "Model",
+                "Gewichteter Grad": "6.0",
+                "Harmonic Closeness Centrality": "0.46410256410256384",
+                "Number of triangles": "1",
+                "Grad": "6"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 20.90909194946289
+        },
+        {
+            "label": "Digital Mock-Up",
+            "x": -1531.594482421875,
+            "y": 318.2473449707031,
+            "id": "29",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.37790697674418605",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.32976160885243216",
+                "Clustering Coefficient": "0.3333333333333333",
+                "Betweenness Centrality": "55.82479644718609",
+                "typ": "Model",
+                "Gewichteter Grad": "6.0",
+                "Harmonic Closeness Centrality": "0.4417948717948716",
+                "Number of triangles": "5",
+                "Grad": "6"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 20.90909194946289
+        },
+        {
+            "label": "Symbolic Representation",
+            "x": -17.872577667236328,
+            "y": -1819.93212890625,
+            "id": "64",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "6.0",
+                "Closeness Centrality": "0.2620967741935484",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.024822128115504778",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "0.0",
+                "typ": "Model",
+                "Gewichteter Grad": "1.0",
+                "Harmonic Closeness Centrality": "0.28692307692307684",
+                "Number of triangles": "0",
+                "Grad": "1"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 11.818181991577148
+        },
+        {
+            "label": "NVH Model",
+            "x": -1380.9251708984375,
+            "y": -758.7315673828125,
+            "id": "50",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.34759358288770054",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.2010568350205311",
+                "Clustering Coefficient": "1.0",
+                "Betweenness Centrality": "0.0",
+                "typ": "Model",
+                "Gewichteter Grad": "2.0",
+                "Harmonic Closeness Centrality": "0.38666666666666644",
+                "Number of triangles": "1",
+                "Grad": "2"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 13.636363983154297
+        },
+        {
+            "label": "Product Structure",
+            "x": -1372.5113525390625,
+            "y": 1122.988037109375,
+            "id": "54",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.3282828282828283",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.12747980522736602",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "21.03651123918527",
+                "typ": "Model",
+                "Gewichteter Grad": "3.0",
+                "Harmonic Closeness Centrality": "0.3751282051282049",
+                "Number of triangles": "0",
+                "Grad": "3"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 15.454545974731445
+        },
+        {
+            "label": "Statistical Model",
+            "x": -1816.2247314453125,
+            "y": 274.4188232421875,
+            "id": "62",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.3125",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.0572597377827243",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "0.0",
+                "typ": "Model",
+                "Gewichteter Grad": "1.0",
+                "Harmonic Closeness Centrality": "0.34025641025641007",
+                "Number of triangles": "0",
+                "Grad": "1"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 11.818181991577148
+        },
+        {
+            "label": "SysML Extension ArchME",
+            "x": -92.56766510009766,
+            "y": -151.1605224609375,
+            "id": "68",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "0.0",
+                "Closeness Centrality": "0.0",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.0",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "0.0",
+                "typ": "Model",
+                "Gewichteter Grad": "4.0",
+                "Harmonic Closeness Centrality": "0.0",
+                "Number of triangles": "0",
+                "Grad": "4"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 10.0
+        },
+        {
+            "label": "Decomposition of the product",
+            "x": -1994.796875,
+            "y": 1164.9254150390625,
+            "id": "5",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "6.0",
+                "Closeness Centrality": "0.3037383177570093",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.07093262811672263",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "3.295634920634921",
+                "typ": "Category",
+                "Gewichteter Grad": "2.0",
+                "Harmonic Closeness Centrality": "0.3435897435897434",
+                "Number of triangles": "0",
+                "Grad": "2"
+            },
+            "color": "rgb(63,177,125)",
+            "size": 13.636363983154297
+        },
+        {
+            "label": "Relations between components",
+            "x": -667.3190307617188,
+            "y": 975.4244384765625,
+            "id": "13",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.3987730061349693",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.3916552471878205",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "98.6024449038206",
+                "typ": "Category",
+                "Gewichteter Grad": "11.0",
+                "Harmonic Closeness Centrality": "0.4869230769230767",
+                "Number of triangles": "0",
+                "Grad": "11"
+            },
+            "color": "rgb(63,177,125)",
+            "size": 30.0
+        },
+        {
+            "label": "Feature-based Structure Concept Model",
+            "x": 3399.5791015625,
+            "y": 813.8579711914062,
+            "id": "35",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "6.0",
+                "Closeness Centrality": "0.24528301886792453",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.04104992295340421",
+                "Clustering Coefficient": "0.8333333333333334",
+                "Betweenness Centrality": "0.3333333333333333",
+                "typ": "Model",
+                "Gewichteter Grad": "5.0",
+                "Harmonic Closeness Centrality": "0.2951282051282051",
+                "Number of triangles": "5",
+                "Grad": "5"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 19.09090805053711
+        },
+        {
+            "label": "Design Graph",
+            "x": -126.68657684326172,
+            "y": 262.8997802734375,
+            "id": "27",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "4.0",
+                "Closeness Centrality": "0.4391891891891892",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.37426003391933516",
+                "Clustering Coefficient": "0.4",
+                "Betweenness Centrality": "56.361374862750566",
+                "typ": "Model",
+                "Gewichteter Grad": "6.0",
+                "Harmonic Closeness Centrality": "0.4884615384615382",
+                "Number of triangles": "6",
+                "Grad": "6"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 20.90909194946289
+        },
+        {
+            "label": "Function Analysis Diagram plus",
+            "x": 505.5180358886719,
+            "y": 148.6792449951172,
+            "id": "38",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.3611111111111111",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.1096513707873924",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "10.47180054817626",
+                "typ": "Model",
+                "Gewichteter Grad": "2.0",
+                "Harmonic Closeness Centrality": "0.3958974358974357",
+                "Number of triangles": "0",
+                "Grad": "2"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 13.636363983154297
+        },
+        {
+            "label": "Product Architecture",
+            "x": -612.1954956054688,
+            "y": 1845.47216796875,
+            "id": "53",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.30660377358490565",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.0684884007084827",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "10.122501289033549",
+                "typ": "Model",
+                "Gewichteter Grad": "3.0",
+                "Harmonic Closeness Centrality": "0.3443589743589743",
+                "Number of triangles": "0",
+                "Grad": "3"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 15.454545974731445
+        },
+        {
+            "label": "Context Object Diagram",
+            "x": 196.67054748535156,
+            "y": 1079.3226318359375,
+            "id": "25",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.3939393939393939",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.2188297682313047",
+                "Clustering Coefficient": "0.1",
+                "Betweenness Centrality": "55.99655107963931",
+                "typ": "Model",
+                "Gewichteter Grad": "5.0",
+                "Harmonic Closeness Centrality": "0.4497435897435896",
+                "Number of triangles": "1",
+                "Grad": "5"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 19.09090805053711
+        },
+        {
+            "label": "Feature-based Functional Model",
+            "x": 1787.4432373046875,
+            "y": 646.712158203125,
+            "id": "31",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.3125",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.06913220226135612",
+                "Clustering Coefficient": "1.0",
+                "Betweenness Centrality": "0.0",
+                "typ": "Model",
+                "Gewichteter Grad": "2.0",
+                "Harmonic Closeness Centrality": "0.355128205128205",
+                "Number of triangles": "1",
+                "Grad": "2"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 13.636363983154297
+        },
+        {
+            "label": "Remanufacturability Model",
+            "x": -1196.281005859375,
+            "y": 392.5113830566406,
+            "id": "57",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.38235294117647056",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.3219521967735662",
+                "Clustering Coefficient": "0.2",
+                "Betweenness Centrality": "22.69172494172494",
+                "typ": "Model",
+                "Gewichteter Grad": "5.0",
+                "Harmonic Closeness Centrality": "0.44435897435897415",
+                "Number of triangles": "2",
+                "Grad": "5"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 19.09090805053711
+        },
+        {
+            "label": "Sketches",
+            "x": -4.846912384033203,
+            "y": -922.204345703125,
+            "id": "3",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "4.0",
+                "Closeness Centrality": "0.38461538461538464",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.24638514048437515",
+                "Clustering Coefficient": "0.4",
+                "Betweenness Centrality": "28.646645021645018",
+                "typ": "Category",
+                "Gewichteter Grad": "5.0",
+                "Harmonic Closeness Centrality": "0.43333333333333307",
+                "Number of triangles": "4",
+                "Grad": "5"
+            },
+            "color": "rgb(63,177,125)",
+            "size": 19.09090805053711
+        },
+        {
+            "label": "Working Space Model",
+            "x": -730.5431518554688,
+            "y": -565.3645629882812,
+            "id": "66",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.37572254335260113",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.2831387009187603",
+                "Clustering Coefficient": "0.3333333333333333",
+                "Betweenness Centrality": "16.93730158730159",
+                "typ": "Model",
+                "Gewichteter Grad": "4.0",
+                "Harmonic Closeness Centrality": "0.4302564102564101",
+                "Number of triangles": "2",
+                "Grad": "4"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 17.272727966308594
+        },
+        {
+            "label": "Matrix Representation",
+            "x": -140.64996337890625,
+            "y": 1262.628662109375,
+            "id": "10",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "4.0",
+                "Closeness Centrality": "0.38922155688622756",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.3353741533893227",
+                "Clustering Coefficient": "0.1111111111111111",
+                "Betweenness Centrality": "119.83933331321856",
+                "typ": "Category",
+                "Gewichteter Grad": "10.0",
+                "Harmonic Closeness Centrality": "0.46153846153846123",
+                "Number of triangles": "4",
+                "Grad": "10"
+            },
+            "color": "rgb(63,177,125)",
+            "size": 26.363636016845703
+        },
+        {
+            "label": "Connectivity Graph",
+            "x": -1168.185546875,
+            "y": 994.61572265625,
+            "id": "23",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.3693181818181818",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.2473130468812179",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "7.3696177188824255",
+                "typ": "Model",
+                "Gewichteter Grad": "4.0",
+                "Harmonic Closeness Centrality": "0.425128205128205",
+                "Number of triangles": "0",
+                "Grad": "4"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 17.272727966308594
+        },
+        {
+            "label": "Multibody System",
+            "x": -965.8331909179688,
+            "y": 34.2589225769043,
+            "id": "47",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "4.0",
+                "Closeness Centrality": "0.3987730061349693",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.36515370201082636",
+                "Clustering Coefficient": "0.6",
+                "Betweenness Centrality": "15.452164502164504",
+                "typ": "Model",
+                "Gewichteter Grad": "5.0",
+                "Harmonic Closeness Centrality": "0.4525641025641023",
+                "Number of triangles": "6",
+                "Grad": "5"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 19.09090805053711
+        },
+        {
+            "label": "Technical Drawing",
+            "x": -282.52581787109375,
+            "y": -834.0455932617188,
+            "id": "4",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.3532608695652174",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.18920515103349325",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "74.89285714285714",
+                "typ": "Category",
+                "Gewichteter Grad": "5.0",
+                "Harmonic Closeness Centrality": "0.4084615384615382",
+                "Number of triangles": "0",
+                "Grad": "5"
+            },
+            "color": "rgb(63,177,125)",
+            "size": 19.09090805053711
+        },
+        {
+            "label": "Relations",
+            "x": -602.0120239257812,
+            "y": 333.9337158203125,
+            "id": "12",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "4.0",
+                "Closeness Centrality": "0.4513888888888889",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.4472786688080337",
+                "Clustering Coefficient": "0.05454545454545454",
+                "Betweenness Centrality": "224.49763837356093",
+                "typ": "Category",
+                "Gewichteter Grad": "12.0",
+                "Harmonic Closeness Centrality": "0.5282051282051281",
+                "Number of triangles": "3",
+                "Grad": "12"
+            },
+            "color": "rgb(63,177,125)",
+            "size": 30.0
+        },
+        {
+            "label": "Parametric Associativity Graph",
+            "x": -1074.6473388671875,
+            "y": 1240.250244140625,
+            "id": "51",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.3693181818181818",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.2473130468812179",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "7.3696177188824255",
+                "typ": "Model",
+                "Gewichteter Grad": "4.0",
+                "Harmonic Closeness Centrality": "0.425128205128205",
+                "Number of triangles": "0",
+                "Grad": "4"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 17.272727966308594
+        },
+        {
+            "label": "System Graph",
+            "x": -1091.181396484375,
+            "y": 1471.2818603515625,
+            "id": "65",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.3651685393258427",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.22525025239874352",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "40.075331041507525",
+                "typ": "Model",
+                "Gewichteter Grad": "5.0",
+                "Harmonic Closeness Centrality": "0.42999999999999977",
+                "Number of triangles": "0",
+                "Grad": "5"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 19.09090805053711
+        },
+        {
+            "label": "Functional Sketch",
+            "x": 837.0630493164062,
+            "y": -487.5004577636719,
+            "id": "37",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "4.0",
+                "Closeness Centrality": "0.3403141361256545",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.08371190267988723",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "12.292857142857141",
+                "typ": "Model",
+                "Gewichteter Grad": "2.0",
+                "Harmonic Closeness Centrality": "0.37564102564102547",
+                "Number of triangles": "0",
+                "Grad": "2"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 13.636363983154297
+        },
+        {
+            "label": "Schematic Representation",
+            "x": -1448.093505859375,
+            "y": -3182.7724609375,
+            "id": "59",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "6.0",
+                "Closeness Centrality": "0.23465703971119134",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.009352258623138349",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "0.0",
+                "typ": "Model",
+                "Gewichteter Grad": "1.0",
+                "Harmonic Closeness Centrality": "0.25538461538461527",
+                "Number of triangles": "0",
+                "Grad": "1"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 11.818181991577148
+        },
+        {
+            "label": "Prototype",
+            "x": -1612.97607421875,
+            "y": 17.686126708984375,
+            "id": "55",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.34210526315789475",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.17705193349751433",
+                "Clustering Coefficient": "0.3333333333333333",
+                "Betweenness Centrality": "5.696969696969696",
+                "typ": "Model",
+                "Gewichteter Grad": "3.0",
+                "Harmonic Closeness Centrality": "0.38666666666666644",
+                "Number of triangles": "1",
+                "Grad": "3"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 15.454545974731445
+        },
+        {
+            "label": "Components",
+            "x": -946.0723266601562,
+            "y": 1054.14453125,
+            "id": "1",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.3651685393258427",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.3212871876799499",
+                "Clustering Coefficient": "0.022222222222222223",
+                "Betweenness Centrality": "53.58084244187186",
+                "typ": "Category",
+                "Gewichteter Grad": "10.0",
+                "Harmonic Closeness Centrality": "0.45435897435897404",
+                "Number of triangles": "1",
+                "Grad": "10"
+            },
+            "color": "rgb(63,177,125)",
+            "size": 28.18181800842285
+        },
+        {
+            "label": "Enhanced Function-Means Model",
+            "x": -316.02581787109375,
+            "y": 270.5570068359375,
+            "id": "30",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "4.0",
+                "Closeness Centrality": "0.45454545454545453",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.44424706828686067",
+                "Clustering Coefficient": "0.2",
+                "Betweenness Centrality": "77.548488128991",
+                "typ": "Model",
+                "Gewichteter Grad": "6.0",
+                "Harmonic Closeness Centrality": "0.4999999999999999",
+                "Number of triangles": "3",
+                "Grad": "6"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 20.90909194946289
+        },
+        {
+            "label": "Feature-based Working Principle Model",
+            "x": 3297.219970703125,
+            "y": 588.6377563476562,
+            "id": "34",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "6.0",
+                "Closeness Centrality": "0.24436090225563908",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.03474850701664341",
+                "Clustering Coefficient": "1.0",
+                "Betweenness Centrality": "0.0",
+                "typ": "Model",
+                "Gewichteter Grad": "4.0",
+                "Harmonic Closeness Centrality": "0.28743589743589737",
+                "Number of triangles": "3",
+                "Grad": "4"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 17.272727966308594
+        },
+        {
+            "label": "Structure-Behavior-Function Model",
+            "x": -172.10317993164062,
+            "y": 817.3367309570312,
+            "id": "63",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.34946236559139787",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.16909774274766196",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "4.267324342324342",
+                "typ": "Model",
+                "Gewichteter Grad": "4.0",
+                "Harmonic Closeness Centrality": "0.39692307692307677",
+                "Number of triangles": "0",
+                "Grad": "4"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 15.454545974731445
+        },
+        {
+            "label": "Design Structure Matrix",
+            "x": -434.23870849609375,
+            "y": 529.6278076171875,
+            "id": "28",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "4.0",
+                "Closeness Centrality": "0.4391891891891892",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.5108095835884817",
+                "Clustering Coefficient": "0.2",
+                "Betweenness Centrality": "117.91393693027563",
+                "typ": "Model",
+                "Gewichteter Grad": "11.0",
+                "Harmonic Closeness Centrality": "0.5141025641025639",
+                "Number of triangles": "9",
+                "Grad": "11"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 30.0
+        },
+        {
+            "label": "Function Tree",
+            "x": 958.2261352539062,
+            "y": 926.1922607421875,
+            "id": "42",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.34574468085106386",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.11218588285858291",
+                "Clustering Coefficient": "0.3333333333333333",
+                "Betweenness Centrality": "5.983766233766233",
+                "typ": "Model",
+                "Gewichteter Grad": "3.0",
+                "Harmonic Closeness Centrality": "0.3874358974358973",
+                "Number of triangles": "1",
+                "Grad": "3"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 15.454545974731445
+        },
+        {
+            "label": "Function Means Tree",
+            "x": 662.6251220703125,
+            "y": 1215.7906494140625,
+            "id": "40",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.3672316384180791",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.1492382102077213",
+                "Clustering Coefficient": "0.16666666666666666",
+                "Betweenness Centrality": "29.76526337190225",
+                "typ": "Model",
+                "Gewichteter Grad": "4.0",
+                "Harmonic Closeness Centrality": "0.41512820512820486",
+                "Number of triangles": "1",
+                "Grad": "4"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 17.272727966308594
+        },
+        {
+            "label": "2D/3D CAD Model",
+            "x": -686.1891479492188,
+            "y": -145.20700073242188,
+            "id": "17",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "4.0",
+                "Closeness Centrality": "0.5241935483870968",
+                "Component ID": "0",
+                "Eigenvector Centrality": "1.0",
+                "Clustering Coefficient": "0.1471861471861472",
+                "Betweenness Centrality": "526.8157254299567",
+                "typ": "Model",
+                "Gewichteter Grad": "23.0",
+                "Harmonic Closeness Centrality": "0.6333333333333334",
+                "Number of triangles": "34",
+                "Grad": "23"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 50.0
+        },
+        {
+            "label": "Concept Model Graph",
+            "x": -838.5612182617188,
+            "y": 1500.9293212890625,
+            "id": "22",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.35135135135135137",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.22780587551063963",
+                "Clustering Coefficient": "0.1",
+                "Betweenness Centrality": "15.039458580635047",
+                "typ": "Model",
+                "Gewichteter Grad": "5.0",
+                "Harmonic Closeness Centrality": "0.4146153846153844",
+                "Number of triangles": "1",
+                "Grad": "5"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 19.09090805053711
+        },
+        {
+            "label": "Multi-view Product Model",
+            "x": -1542.431396484375,
+            "y": 948.699951171875,
+            "id": "48",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "5.0",
+                "Closeness Centrality": "0.3282828282828283",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.099700147642202",
+                "Clustering Coefficient": "0.0",
+                "Betweenness Centrality": "1.701923076923077",
+                "typ": "Model",
+                "Gewichteter Grad": "2.0",
+                "Harmonic Closeness Centrality": "0.3697435897435896",
+                "Number of triangles": "0",
+                "Grad": "2"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 13.636363983154297
+        },
+        {
+            "label": "Graph Representation",
+            "x": -450.0663146972656,
+            "y": 934.7099609375,
+            "id": "8",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "4.0",
+                "Closeness Centrality": "0.45774647887323944",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.6175129487965556",
+                "Clustering Coefficient": "0.09523809523809523",
+                "Betweenness Centrality": "228.28972711875943",
+                "typ": "Category",
+                "Gewichteter Grad": "17.0",
+                "Harmonic Closeness Centrality": "0.5538461538461538",
+                "Number of triangles": "10",
+                "Grad": "17"
+            },
+            "color": "rgb(63,177,125)",
+            "size": 40.909088134765625
+        },
+        {
+            "label": "Function-Effort Matrix",
+            "x": -219.60374450683594,
+            "y": 18.838733673095703,
+            "id": "39",
+            "attributes": {
+                "Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                "Eccentricity": "3.0",
+                "Closeness Centrality": "0.46099290780141844",
+                "Component ID": "0",
+                "Eigenvector Centrality": "0.4578156740863753",
+                "Clustering Coefficient": "0.2857142857142857",
+                "Betweenness Centrality": "144.40641360994283",
+                "typ": "Model",
+                "Gewichteter Grad": "7.0",
+                "Harmonic Closeness Centrality": "0.5076923076923074",
+                "Number of triangles": "6",
+                "Grad": "7"
+            },
+            "color": "rgb(112,112,112)",
+            "size": 22.727272033691406
+        }
+    ],
+    "edges": [
+        {
+            "source": "51",
+            "target": "8",
+            "id": "112",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "42",
+            "target": "6",
+            "id": "99",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "5",
+            "target": "65",
+            "id": "56",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "40",
+            "target": "6",
+            "id": "95",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "15",
+            "target": "46",
+            "id": "43",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "32",
+            "target": "34",
+            "id": "156",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "49",
+            "target": "8",
+            "id": "109",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "41",
+            "target": "21",
+            "id": "139",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "16",
+            "target": "68",
+            "id": "181",
+            "attributes": {},
+            "color": "rgb(0,0,0)",
+            "size": 1.0
+        },
+        {
+            "source": "5",
+            "target": "29",
+            "id": "30",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "32",
+            "target": "35",
+            "id": "159",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "8",
+            "target": "17",
+            "id": "10",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "8",
+            "target": "21",
+            "id": "14",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "16",
+            "target": "57",
+            "id": "53",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "3",
+            "target": "17",
+            "id": "8",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "25",
+            "target": "13",
+            "id": "77",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "32",
+            "target": "33",
+            "id": "155",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "44",
+            "target": "10",
+            "id": "104",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "43",
+            "target": "1",
+            "id": "100",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "34",
+            "target": "35",
+            "id": "161",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "12",
+            "target": "13",
+            "id": "4",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "11",
+            "target": "23",
+            "id": "16",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "28",
+            "target": "12",
+            "id": "83",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "31",
+            "target": "32",
+            "id": "154",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "17",
+            "target": "30",
+            "id": "153",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "57",
+            "target": "1",
+            "id": "117",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "57",
+            "target": "13",
+            "id": "118",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "26",
+            "target": "12",
+            "id": "78",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "17",
+            "target": "12",
+            "id": "60",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "16",
+            "target": "47",
+            "id": "44",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "30",
+            "target": "6",
+            "id": "85",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "6",
+            "target": "27",
+            "id": "25",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "39",
+            "target": "6",
+            "id": "93",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "45",
+            "target": "12",
+            "id": "106",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "23",
+            "target": "13",
+            "id": "75",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "68",
+            "target": "17",
+            "id": "184",
+            "attributes": {},
+            "color": "rgb(0,0,0)",
+            "size": 1.0
+        },
+        {
+            "source": "27",
+            "target": "17",
+            "id": "134",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "63",
+            "target": "13",
+            "id": "127",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "4",
+            "target": "28",
+            "id": "27",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "48",
+            "target": "1",
+            "id": "107",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "25",
+            "target": "43",
+            "id": "167",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "16",
+            "target": "39",
+            "id": "36",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "43",
+            "target": "12",
+            "id": "101",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "2",
+            "target": "39",
+            "id": "37",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "41",
+            "target": "53",
+            "id": "175",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "11",
+            "target": "30",
+            "id": "31",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "16",
+            "target": "29",
+            "id": "29",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "55",
+            "target": "15",
+            "id": "116",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "22",
+            "target": "20",
+            "id": "137",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "22",
+            "target": "0",
+            "id": "71",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "3",
+            "target": "24",
+            "id": "18",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "30",
+            "target": "28",
+            "id": "149",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "41",
+            "target": "6",
+            "id": "96",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "27",
+            "target": "36",
+            "id": "163",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "29",
+            "target": "15",
+            "id": "84",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "11",
+            "target": "17",
+            "id": "7",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "7",
+            "target": "21",
+            "id": "15",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "17",
+            "target": "66",
+            "id": "179",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "22",
+            "target": "13",
+            "id": "72",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "40",
+            "target": "9",
+            "id": "94",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "17",
+            "target": "56",
+            "id": "177",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "11",
+            "target": "24",
+            "id": "17",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "27",
+            "target": "47",
+            "id": "169",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "67",
+            "target": "10",
+            "id": "180",
+            "attributes": {},
+            "color": "rgb(0,0,0)",
+            "size": 1.0
+        },
+        {
+            "source": "38",
+            "target": "12",
+            "id": "91",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "17",
+            "target": "47",
+            "id": "168",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "42",
+            "target": "25",
+            "id": "142",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "51",
+            "target": "1",
+            "id": "113",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "44",
+            "target": "6",
+            "id": "103",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "37",
+            "target": "3",
+            "id": "122",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "4",
+            "target": "24",
+            "id": "19",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "41",
+            "target": "12",
+            "id": "97",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "48",
+            "target": "12",
+            "id": "108",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "49",
+            "target": "1",
+            "id": "110",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "17",
+            "target": "26",
+            "id": "143",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "17",
+            "target": "0",
+            "id": "61",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "41",
+            "target": "20",
+            "id": "136",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "33",
+            "target": "35",
+            "id": "160",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "6",
+            "target": "7",
+            "id": "2",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "8",
+            "target": "19",
+            "id": "11",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "66",
+            "target": "12",
+            "id": "132",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "16",
+            "target": "26",
+            "id": "23",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "11",
+            "target": "39",
+            "id": "38",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "65",
+            "target": "10",
+            "id": "131",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "17",
+            "target": "57",
+            "id": "178",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "15",
+            "target": "47",
+            "id": "45",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "42",
+            "target": "9",
+            "id": "98",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "17",
+            "target": "2",
+            "id": "63",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "26",
+            "target": "10",
+            "id": "79",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "49",
+            "target": "28",
+            "id": "147",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "17",
+            "target": "36",
+            "id": "162",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "11",
+            "target": "54",
+            "id": "51",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "30",
+            "target": "13",
+            "id": "86",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "18",
+            "target": "10",
+            "id": "64",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "16",
+            "target": "50",
+            "id": "48",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "21",
+            "target": "8",
+            "id": "67",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "11",
+            "target": "63",
+            "id": "54",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "8",
+            "target": "25",
+            "id": "21",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "7",
+            "target": "20",
+            "id": "12",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "4",
+            "target": "64",
+            "id": "55",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "19",
+            "target": "10",
+            "id": "65",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "28",
+            "target": "49",
+            "id": "170",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "3",
+            "target": "2",
+            "id": "0",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "22",
+            "target": "1",
+            "id": "70",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "65",
+            "target": "8",
+            "id": "128",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "29",
+            "target": "26",
+            "id": "144",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "62",
+            "target": "12",
+            "id": "125",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "26",
+            "target": "28",
+            "id": "148",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "6",
+            "target": "32",
+            "id": "33",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "8",
+            "target": "47",
+            "id": "46",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "59",
+            "target": "14",
+            "id": "120",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "2",
+            "target": "45",
+            "id": "42",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "4",
+            "target": "2",
+            "id": "1",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "20",
+            "target": "8",
+            "id": "66",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "20",
+            "target": "19",
+            "id": "135",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "38",
+            "target": "6",
+            "id": "90",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "16",
+            "target": "24",
+            "id": "20",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "11",
+            "target": "44",
+            "id": "41",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "32",
+            "target": "52",
+            "id": "172",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "20",
+            "target": "21",
+            "id": "138",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "28",
+            "target": "10",
+            "id": "81",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "61",
+            "target": "14",
+            "id": "124",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "17",
+            "target": "50",
+            "id": "171",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "17",
+            "target": "9",
+            "id": "62",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "33",
+            "target": "34",
+            "id": "157",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "60",
+            "target": "24",
+            "id": "140",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "55",
+            "target": "26",
+            "id": "145",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "6",
+            "target": "25",
+            "id": "22",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "17",
+            "target": "29",
+            "id": "151",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "31",
+            "target": "6",
+            "id": "87",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "57",
+            "target": "0",
+            "id": "119",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "4",
+            "target": "66",
+            "id": "58",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "63",
+            "target": "6",
+            "id": "185",
+            "attributes": {},
+            "color": "rgb(0,0,0)",
+            "size": 1.0
+        },
+        {
+            "source": "68",
+            "target": "12",
+            "id": "183",
+            "attributes": {},
+            "color": "rgb(0,0,0)",
+            "size": 1.0
+        },
+        {
+            "source": "68",
+            "target": "6",
+            "id": "182",
+            "attributes": {},
+            "color": "rgb(0,0,0)",
+            "size": 1.0
+        },
+        {
+            "source": "17",
+            "target": "39",
+            "id": "165",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "35",
+            "target": "34",
+            "id": "158",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "65",
+            "target": "1",
+            "id": "129",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "8",
+            "target": "28",
+            "id": "28",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "54",
+            "target": "53",
+            "id": "176",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "28",
+            "target": "1",
+            "id": "82",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "51",
+            "target": "13",
+            "id": "114",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "8",
+            "target": "36",
+            "id": "35",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "16",
+            "target": "66",
+            "id": "57",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "60",
+            "target": "3",
+            "id": "123",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "24",
+            "target": "14",
+            "id": "76",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "55",
+            "target": "11",
+            "id": "115",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "44",
+            "target": "27",
+            "id": "146",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "39",
+            "target": "10",
+            "id": "92",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "33",
+            "target": "52",
+            "id": "173",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "60",
+            "target": "17",
+            "id": "133",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "17",
+            "target": "24",
+            "id": "141",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "7",
+            "target": "53",
+            "id": "50",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "63",
+            "target": "1",
+            "id": "126",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "10",
+            "target": "49",
+            "id": "47",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "45",
+            "target": "6",
+            "id": "105",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "24",
+            "target": "39",
+            "id": "164",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "15",
+            "target": "17",
+            "id": "9",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "16",
+            "target": "30",
+            "id": "32",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "11",
+            "target": "51",
+            "id": "49",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "8",
+            "target": "9",
+            "id": "3",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "44",
+            "target": "28",
+            "id": "150",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "21",
+            "target": "13",
+            "id": "68",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "8",
+            "target": "20",
+            "id": "13",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "23",
+            "target": "1",
+            "id": "74",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "10",
+            "target": "40",
+            "id": "39",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "23",
+            "target": "8",
+            "id": "73",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "43",
+            "target": "0",
+            "id": "102",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "19",
+            "target": "40",
+            "id": "166",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "11",
+            "target": "26",
+            "id": "24",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "15",
+            "target": "16",
+            "id": "5",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "65",
+            "target": "13",
+            "id": "130",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "11",
+            "target": "41",
+            "id": "40",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "22",
+            "target": "8",
+            "id": "69",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "37",
+            "target": "6",
+            "id": "89",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "11",
+            "target": "28",
+            "id": "26",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "17",
+            "target": "16",
+            "id": "59",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "16",
+            "target": "56",
+            "id": "52",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "27",
+            "target": "8",
+            "id": "80",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "16",
+            "target": "36",
+            "id": "34",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "54",
+            "target": "29",
+            "id": "152",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "49",
+            "target": "13",
+            "id": "111",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        },
+        {
+            "source": "35",
+            "target": "52",
+            "id": "174",
+            "attributes": {},
+            "color": "rgb(61,61,61)",
+            "size": 1.0
+        }
+    ]
+}
