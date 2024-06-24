@@ -53,9 +53,7 @@ git remote set-url origin <url>
 `package.json`
 
 ```json
-...
-    "homepage": "https://{gitname}.github.io/{repo}",
-...
+"homepage": "https://{gitname}.github.io/{repo}",
 ```
 
 4. Deploy your website.
@@ -112,20 +110,13 @@ If you want to change the general description, legals or contact navigate to `./
 
 As of right now, the description paragraph in the modal of each node when clicked is deactivated. To activate the description navigate to `./src/components/ui/Modal.jsx` and un-comment (remove `{/*` and `*/}`) the description `div`:
 
-```javascript
-...
-<div className="modal-content">
-                    <h3 className="modal-heading">{node.label}</h3>
-                    <CloseButton onClose={onClose} />
-                    {/*
-                    <div className="modal-description">
-                    <h4>Description</h4>
-                    <p>{node.attributes.Description}</p>
-                    </div>
-                    */}
-                    <div className="modal-inputs">
-                        <h4>Inputs</h4>
-...
+```html
+{/*
+<div className="modal-description">
+    <h4>Description</h4>
+    <p>{node.attributes.Description}</p>
+</div>
+*/}
 ```
 
 The description is saved in gephi.json. It is declared as an attribute in [gephi](https://gephi.org/).
