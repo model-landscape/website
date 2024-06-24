@@ -1,6 +1,6 @@
 # Landscape of Product Models
 
-You can find the GitHub Pages Website under [https://earlgreyaroma.github.io/model-landscape](https://earlgreyaroma.github.io/model-landscape).
+You can find the GitHub Pages Website under [https://model-landscape.github.io/website](https://model-landscape.github.io/website).
 
 ## Description
 
