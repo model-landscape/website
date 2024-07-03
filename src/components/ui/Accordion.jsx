@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./Accordion.css";
 
-function Accordion({ title, children }) {
-    const [isOpen, setIsOpen] = useState(false);
+function Accordion({ title, children, defaultOpen = false }) {
+    const [isOpen, setIsOpen] = useState(defaultOpen);
 
     function toggleAccordion() {
         setIsOpen(!isOpen);

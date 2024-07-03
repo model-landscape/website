@@ -48,7 +48,7 @@ function Home() {
         <>
             <Graph gephiData={gephiData} gephiIOData={gephiIOData} />
             <div className="accordion-wrapper">
-                <Accordion title="Description">
+                <Accordion title="Description" defaultOpen={true}>
                     <p>
                         This map represents the landscape of product models in
                         embodiment design, a visualization of the product models
